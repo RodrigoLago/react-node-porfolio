@@ -6,7 +6,7 @@ body {
     #mouse-scroll {
       position: absolute;
       margin: auto;
-      margin-top: 150px;
+      margin-top: 100px;
       left: 50%;
       -webkit-transform: translateX(-50%);
       z-index: 1;
@@ -66,6 +66,10 @@ body {
     #mouse-scroll .mouse-in {
      -webkit-animation: animated-mouse 1.2s ease infinite;
       moz-animation: mouse-animated 1.2s ease infinite;
+    }
+    #mouse-scroll .mouse:hover{
+      border: 2px solid #0FFF50;
+      transition: 2s;
     }
     
     @-webkit-keyframes animated-mouse {
