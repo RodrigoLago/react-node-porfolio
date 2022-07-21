@@ -331,10 +331,12 @@ section.success {
 #myLikes .portfolio-link .fa {
     font-size: 10em;
     padding: 10px 15px;
-    color:#212121;
+    color:#ffffff;
+    opacity: 0.92;
     border-radius:6px;
-    border-radius:5px 20px 5px;;
-    background-color:#F7CC01;
+    border-radius:5px 20px 5px;
+
+    background: linear-gradient(45deg,  rgba(90, 0, 173, 0.3)0%,  rgba(0,255,0,0.4)150%);
 }
 
 .seeMore-btn .fa, #portfolio .fa, .contact-btn .fa {
