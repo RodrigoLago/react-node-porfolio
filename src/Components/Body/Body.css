@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .sec-contact .btn, a {
     transition: all 0.25s;
   }
@@ -8,7 +9,7 @@
   }
   
   body {
-    font-family: "Open sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
   }
   
@@ -26,7 +27,7 @@
   }
   
   .main-heading {
-    font-family: "Open sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     text-align: center;
     letter-spacing: 9px;
@@ -38,7 +39,9 @@
     text-align: center;
     text-transform: uppercase;
   }
-  
+  .subtitle{
+    font-family: 'Popping',sans-serif;
+  }
   p {
     font-size: 16px;
     line-height: 1.5;

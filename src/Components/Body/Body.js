@@ -1,8 +1,9 @@
 import React from 'react';
 //import './Body.css'
 import './Body2.css'
+import './ScrollButton.css'
 
-export const Body = () => {
+/*export const Body = () => {
   return <div>
     <div className="wrapper">
       <header role="header">
@@ -28,10 +29,10 @@ export const Body = () => {
             <div className="collapse navbar-collapse">
               <ul className="nav navbar-nav navbar-right js-nav">
                 <li>
-                  <a href="#home">Home</a>
+                  <a href="#page-top">Home</a>
                 </li>
                 <li>
-                  <a href="#about">About</a>
+                  <a href="#about">Sobre mi</a>
                 </li>
                 <li>
                   <a href="#services">Services</a>
@@ -40,10 +41,7 @@ export const Body = () => {
                   <a href="#folio">Folio</a>
                 </li>
                 <li>
-                  <a href="#testimonials">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
+                  <a href="#contact">Contacto</a>
                 </li>
                 <li>
                   <a href="http://alexsblog.org" target="_blank">
@@ -315,7 +313,7 @@ export const Body = () => {
     </div>
 
   </div>
-};
+};*/
 
 export const Body2 = () => {
   return <div>
@@ -354,16 +352,16 @@ export const Body2 = () => {
               <a href="#page-top">Home</a>
             </li>
             <li className="page-scroll">
-              <a href="#myLikes">What I Do</a>
+              <a href="#myLikes">Quien soy</a>
             </li>
             <li className="page-scroll">
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio">CV</a>
             </li>
             <li className="page-scroll">
-              <a href="#about">About</a>
+              <a href="#about">Sobre mi</a>
             </li>
             <li className="page-scroll">
-              <a href="#contact">Contact</a>
+              <a href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
@@ -372,31 +370,55 @@ export const Body2 = () => {
       {/* /.container-fluid */}
     </nav>
     {/* Header */}
-    <header>
+    <header id="top-header">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="intro-text">
-              <span className="name">Geek Vader</span>
-              <span className="skills">May the Knowledge be with you</span>
+              <span className="name">Rodrigo Lago</span>
+              <span className="subtitle">Programador full stack</span>
+              <span className="skills"></span>
               <hr className="star-light" />
             </div>
-            <img
-              className="img-responsive img-bigScreen"
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052055/glass_cdjbpa.png"
-              alt="glasses image"
-              title="geek loves glasses"
-            />
+
           </div>
         </div>
+        {/*
+        
+        <section href="#portfolio" id="section07" className="">
+          <a href="#portfolio">
+            <span />
+            <span />
+            <span />
+            Ver mas
+          </a>
+        </section>
+
         <div className="seeMore-btn text-center btn-style">
           <div className="btn-styleLine double-line page-scroll">
             <a href="#portfolio" className="btn btn-lg btn-outline">
-              <i className="fa fa-fw fa-arrow-circle-down" />
-              See More
+              <i className="" />
+              <span className="button-text">Ver más</span>
             </a>
           </div>
         </div>
+        
+        */}
+        <div className="page-scroll">
+          <a href="#myLikes">
+            <div id="mouse-scroll">
+              <div className="mouse">
+                <div className="mouse-in"></div>
+              </div>
+              <div>
+                <span className="down-arrow-1"></span>
+                <span className="down-arrow-2"></span>
+                <span className="down-arrow-3"></span>
+              </div>
+            </div>
+          </a>
+        </div>
+
       </div>
     </header>
     {/* My Likes Grid Section */}
@@ -488,14 +510,14 @@ export const Body2 = () => {
       </div>
     </section>
     <div>
-      <hr className="loc-hr" />
+      <hr id="portfolio" className="loc-hr" />
     </div>
     {/* Portfolio Grid Section */}
-    <section id="portfolio">
+    <section >
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2>Portfolio</h2>
+            <h2>Curriculum</h2>
             <hr className="star-primary" />
           </div>
         </div>
@@ -538,24 +560,23 @@ export const Body2 = () => {
           </a>
         </div>
       </div>
-      <div className="loadMore-btn text-center btn-style">
-        <div className="btn-styleLine double-line">
+      <div className="text-center btn-style double-line">
+        <div className="btn-styleLine">
           <a href="#" className="btn btn-lg btn-outline">
-            <i className="fa fa-fw fa-plus" />
-            Load More
+            <i className="fa fa-fw fa-download" /> Currículum
           </a>
         </div>
       </div>
     </section>
     <div>
-      <hr className="loc-hr" />
+      <hr id="about" className="loc-hr" />
     </div>
     {/* About Section */}
     <section id="about">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2>About me</h2>
+            <h2>Mis conocimientos</h2>
             <hr className="star-primary" />
           </div>
         </div>
@@ -687,13 +708,6 @@ export const Body2 = () => {
             </article>
           </div>
         </div>
-        <div className="text-center btn-style double-line">
-          <div className="btn-styleLine">
-            <a href="#" className="btn btn-lg btn-outline">
-              <i className="fa fa-fw fa-download" /> Download Resume
-            </a>
-          </div>
-        </div>
       </div>
     </section>
     {/* Contact Section */}
@@ -701,7 +715,7 @@ export const Body2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2>Contact Me</h2>
+            <h2>Contactarme</h2>
             <hr className="star-primary" />
           </div>
         </div>
@@ -867,7 +881,7 @@ export const Body2 = () => {
     </footer>
     {/* Scroll to Top Button (Only visible on small and extra-small screen sizes) */}
     <div className="scroll-top page-scroll visible-xs visible-sm">
-      <a className="btn btn-primary" href="#page-top">
+      <a className="btn btn-primary" href="#">
         <i className="fa fa-chevron-up" />
       </a>
     </div>
