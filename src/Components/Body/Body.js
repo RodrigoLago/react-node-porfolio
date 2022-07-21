@@ -816,12 +816,12 @@ export const Body2 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              Artworks created by{" "}
-              <a href="https://www.behance.net/annadadej" target="_blank">
-                Anna Dadej
+              Pagina diseñada por{" "}
+              <a href="https://github.com/RodrigoLago/" target="_blank">
+                Rodrigo Lago
               </a>
               <br />
-              Copyright © dasdezine 2016
+              Copyright © 2022
             </div>
           </div>
         </div>
