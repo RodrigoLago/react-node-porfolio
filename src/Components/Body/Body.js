@@ -525,20 +525,21 @@ export const Body2 = () => {
       <div className="row">
         <div className="col-sm-3 portfolio-item">
           <a href="#" className="portfolio-link">
-            <img
+            {/*<img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052402/portfolio_book_y7ypqt.png"
               className="img-responsive"
               alt=""
-            />
+      />*/}
           </a>
         </div>
         <div className="col-sm-3 portfolio-item">
           <a href="#" className="portfolio-link">
+            {/* 
             <img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052400/portfolio_label_e5kv1h.png"
               className="img-responsive"
               alt=""
-            />
+            />*/}
           </a>
         </div>
         <div className="col-sm-3 portfolio-item">
@@ -582,11 +583,11 @@ export const Body2 = () => {
         </div>
         <div className="row">
           <div className="col-sm-4 center-block about-item">
-            <img
+            {/*<img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
               className="img-responsive"
               alt=""
-            />
+          />*/}
             <article className="about-item-One">
               <header>
                 <h3>75%</h3>
@@ -600,11 +601,11 @@ export const Body2 = () => {
             </article>
           </div>
           <div className="col-sm-4 center-block about-item">
-            <img
+            {/*<img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
               className="img-responsive"
               alt=""
-            />
+            />*/}
             <article className="about-item-One">
               <header>
                 <h3>75%</h3>
@@ -618,11 +619,11 @@ export const Body2 = () => {
             </article>
           </div>
           <div className="col-sm-4 center-block about-item">
-            <img
+            {/*<img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
               className="img-responsive"
               alt=""
-            />
+            />*/}
             <article className="about-item-One">
               <header>
                 <h3>75%</h3>
@@ -636,11 +637,11 @@ export const Body2 = () => {
             </article>
           </div>
           <div className="col-sm-4 center-block about-item">
-            <img
+            {/*<img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
               className="img-responsive"
               alt=""
-            />
+            />*/}
             <article className="about-item-One">
               <header>
                 <h3>75%</h3>
@@ -653,60 +654,7 @@ export const Body2 = () => {
               </p>
             </article>
           </div>
-          <div className="col-sm-4 center-block about-item">
-            <img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
-              className="img-responsive"
-              alt=""
-            />
-            <article className="about-item-One">
-              <header>
-                <h3>75%</h3>
-                <h3>Photoshop</h3>
-              </header>
-              <p>
-                Four dollar toast messenger bag green juice, organic cliche tofu
-                synth small batch locavore austin. Squid mlkshk authe ntic
-                pinterest, pour-over gastropub XOXO seitan sartorial humblebrag.
-              </p>
-            </article>
-          </div>
-          <div className="col-sm-4 about-item ">
-            <img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052396/illustrator_a9kxav.png"
-              className="img-responsive"
-              alt=""
-            />
-            <article className="about-item-Two">
-              <header>
-                <h3>65%</h3>
-                <h3>Illustrator</h3>
-              </header>
-              <p>
-                Four dollar toast messenger bag green juice, organic cliche tofu
-                synth small batch locavore austin. Squid mlkshk authe ntic
-                pinterest, pour-over gastropub XOXO seitan sartorial humblebrag.
-              </p>
-            </article>
-          </div>
-          <div className="col-sm-4 about-item ">
-            <img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052396/knit_b0ngnp.png"
-              className="img-responsive"
-              alt=""
-            />
-            <article className="about-item-Three">
-              <header>
-                <h3>25%</h3>
-                <h3>Knitting</h3>
-              </header>
-              <p>
-                Four dollar toast messenger bag green juice, organic cliche tofu
-                synth small batch locavore austin. Squid mlkshk authe ntic
-                pinterest, pour-over gastropub XOXO seitan sartorial humblebrag.
-              </p>
-            </article>
-          </div>
+         
         </div>
       </div>
     </section>
