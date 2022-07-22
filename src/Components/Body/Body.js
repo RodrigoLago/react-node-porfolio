@@ -578,7 +578,7 @@ export const Body2 = () => {
       <div className="text-center btn-style">
         <div className="btn-styleLine">
           <a href="#" className="btn btn-lg btn-outline">
-            <i className="fa fa-fw fa-download" /> Currículum
+            <h5><i className="fa fa-fw fa-download"/> Descargar cv</h5>
           </a>
         </div>
       </div>
@@ -879,7 +879,7 @@ export const Body2 = () => {
     </div>
     {/* Scroll to Top Button (Only visible on small and extra-small screen sizes) */}
     <div className="scroll-top page-scroll visible-xs visible-sm">
-      <a className="btn btn-primary" href="#">
+      <a className="btn btn-primary" href="#page-top">
         <i className="fa fa-chevron-up" />
       </a>
     </div>
