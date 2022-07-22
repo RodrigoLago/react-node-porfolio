@@ -536,14 +536,14 @@ export const Body2 = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      {/*<div className="row">
         <div className="col-sm-3 portfolio-item">
           <a href="#" className="portfolio-link">
-            {/*<img
+            <img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052402/portfolio_book_y7ypqt.png"
               className="img-responsive"
               alt=""
-      />*/}
+      />
           </a>
         </div>
         <div className="col-sm-3 portfolio-item">
@@ -553,7 +553,7 @@ export const Body2 = () => {
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052400/portfolio_label_e5kv1h.png"
               className="img-responsive"
               alt=""
-            />*/}
+            />
           </a>
         </div>
         <div className="col-sm-3 portfolio-item">
@@ -563,20 +563,20 @@ export const Body2 = () => {
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052404/portfolio_card_xenfuv.png"
               className="img-responsive"
               alt=""
-            />*/}
+            />
           </a>
         </div>
         <div className="col-sm-3 portfolio-item">
           <a href="#" className="portfolio-link">
-            {/*
+            
             <img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052405/portfolio_mocup_hoxha8.png"
               className="img-responsive"
               alt=""
-            />*/}
+            />
           </a>
         </div>
-      </div>
+      </div>*/}
       <div className="text-center btn-style">
         <div className="btn-styleLine">
           <a href="#" className="btn btn-lg btn-outline">
@@ -612,8 +612,7 @@ export const Body2 = () => {
           />*/}
             <article className="about-item-One">
               <header>
-                <h3>Backend</h3>
-                <h3>.Net 5 & 6</h3>
+                <h3>Backend .Net 5 & 6</h3>
               </header>
               <p>
                 <h4>C#, POO, Api Rest, ORM Entity Framework, arquitectura de microservicios, patrones de diseño, 
@@ -630,8 +629,7 @@ export const Body2 = () => {
             />*/}
             <article className="about-item-One">
               <header>
-                <h3>Frontend</h3>
-                <h3>React</h3>
+                <h3>Frontend React</h3>
               </header>
               <p><h4>Html, Css, Javascript, Manejo de jsons, api fetch, 
                 Carga dinámica de datos, Node.js, Express.js,
@@ -649,8 +647,7 @@ export const Body2 = () => {
             />*/}
             <article className="about-item-One">
               <header>
-                <h3>Databases</h3>
-                <h3>Sql y NoSql</h3>
+                <h3>Databases Sql y NoSql</h3>
               </header>
               <p>
                 <h4>Diagrama entidad-relacion, SQL (MySql, MariaDB,
@@ -671,8 +668,7 @@ export const Body2 = () => {
             />*/}
             <article className="about-item-One">
               <header>
-                <h3>Diseño</h3>
-                <h3>Adobe</h3>
+                <h3>Diseño - Adobe</h3>
               </header>
               <p>
                 <h4>Adobe XD, Adobe Illustrator y Adobe photoshop. 
@@ -690,7 +686,6 @@ export const Body2 = () => {
             <article className="about-item-One">
               <header>
                 <h3>Otros</h3>
-                <h3>Lenguajes y Software</h3>
               </header>
               <p><h4>Lenguajes: Python, Smalltalk, Java. <br></br>
               Software: Postman, VS Code, VS Community

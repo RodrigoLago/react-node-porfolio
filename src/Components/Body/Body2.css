@@ -1,13 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700|Lato:400,700);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /****created and maintained  @dasdezine****/
+:root {
+    --firstcolor: #fff000;
+    --amarillo: #fff000;
+    --fullwidth: 100%;
+  }
 html{
+    width: 100%;
     margin:0;
     padding:0;
     min-height:100%; /* needed for container min-height */
     
 }
+#app{
+    min-width: 100%;
+}
 body {
+    width: 100%;
     min-height:100%;
     overflow-x: hidden;
     color: #ffffff;
@@ -40,7 +50,7 @@ h6 {
     font-weight: 700;
 }
 header h3{
-    color: #ffe600;
+    color: var(--firstcolor);
 }
 h4{
     font-weight: normal;
@@ -83,7 +93,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #ffffff;
-    background-color: #fff000;
+    background-color: var(--firstcolor);
 }
 
 hr.star-primary {
@@ -211,6 +221,7 @@ header .intro-text .skills {
 }
 
 .navbar {
+    width: 100%;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -244,7 +255,7 @@ header .intro-text .skills {
     color:#fff;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color: #fff000;
+    color: var(--magenta);
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -252,7 +263,7 @@ header .intro-text .skills {
 .navbar-default .navbar-nav>.active>a:focus
 {
     color: #212121;
-    background-color: #fff000;
+    background-color: var(--firstcolor);
 }
 
 .navbar .navbar-nav li a:focus {
@@ -296,7 +307,7 @@ section.success {
 }
 
 #likes-cv{
-    background: url(https://i.ibb.co/xgb1pjC/container1.png) no-repeat 30% 0%;
+    background: url(https://i.ibb.co/xgb1pjC/container1.png) no-repeat 60% 0%;
     background-size: cover;
 }
 #myLikes{
@@ -401,7 +412,7 @@ div.seeMore-btn .btn-outline, div.contact-btn .btn-outline {
 }
 
 div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
-    background: #fff000;
+    background: var(--firstcolor);
 } 
 
 .btn-outline {
@@ -419,7 +430,7 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 .btn-outline:active,
 .btn-outline.active {
     color: #212121;
-    background: #fff000;
+    background: var(--firstcolor);
 }
 
 /*******btn double line style starts***********/
@@ -446,7 +457,7 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 
     .double-line:before {
         content: "";
-        border-top: 2px solid #fff000;
+        border-top: 2px solid var(--firstcolor);
         position: absolute;
         top:50%;
         left:25%;
@@ -456,7 +467,7 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 
     .double-line:after {
         content: "";
-        border-bottom: 2px solid #fff000;
+        border-bottom: 2px solid var(--firstcolor);
         position: absolute;
         bottom:25%;
         left:30%;
@@ -611,19 +622,19 @@ footer .footer-below {
 }
 
 .btn-primary{
-    color:#fff000;
+    color:var(--firstcolor);
     background-color: #000000;
     border-width: 3px;
-    border-color: #fff000;
+    border-color: var(--firstcolor);
 }
 .btn-primary:hover{
     color:#000000;
-    background-color: #fff000;
+    background-color: var(--firstcolor);
     border-width: 3px;
     border-color: #000000;
 }
 .btn-primary:focus {
-    color:#fff000 !important;
+    color:var(--firstcolor) !important;
     background-color: #000000 !important;
     border-width: 3px !important;
     border-color: #000000 !important;
