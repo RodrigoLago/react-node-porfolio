@@ -371,7 +371,7 @@ export const Body2 = () => {
     </nav>
     {/* Header */}
     <header id="top-header">
-      <div className="container">
+      <div id="page-top" className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="intro-text">
@@ -428,8 +428,16 @@ export const Body2 = () => {
       <div className="container">
         <div className="row aboutme">
           <div className="col-lg-12 text-center">
-            <h2>¿QUE HAGO?</h2>
+            <h2>¿Quien soy?</h2><br></br>
+            <h4>Soy un chico argentino de 24 años de edad, 
+              estudiante avanzado de ingeniería en informática 
+              en la Universidad Nacional Arturo Jauretche. 
+              Doy clases de programación y matemáticas. 
+              Apasionado de la música y los videojuegos</h4>
+
             <hr className="star-primary" />
+            <br></br>
+            <h2 id="space-1">Me dedico a:</h2><br></br>
           </div>
         </div>
         
@@ -441,7 +449,7 @@ export const Body2 = () => {
               data-toggle="modal"
             >
               <span
-                className="fa fa-fw fa-laptop"
+                className="fa fa-fw fa-keyboard-o"
                 aria-hidden="true"
                 title="This symbolizes I Like to design and develop websites
                       "
@@ -452,12 +460,12 @@ export const Body2 = () => {
                 <h3>Desarrollo full stack</h3>
               </header>
               <p>
-                Soy desarrollador full stack. 
-                
-                I am a front-End designer. I do design and coding of web
-                application. Swag brooklyn banh mi stumptown loca vore yr migas
-                tousled chicharrones sriracha cray leggings. Street art tousled
-                kale chips poutine schlitz. Polaroid roof party austin.
+                <h4>
+                Soy desarrollador full stack. Puedo realizar desde
+                el diseño hasta la implementación de una aplicación,
+                incluyendo tanto back-end como front-end. Conozco
+                diversas tecnologías para poder implementarlas en 
+                un futuro o actual proyecto.</h4>
               </p>
             </article>
           </div>
@@ -479,10 +487,10 @@ export const Body2 = () => {
                 <h3>Musico</h3>
               </header>
               <p>
-                All kind of melodious music because it suits into my ears. Four
-                dollar toast messenger bag green juice, organic cliche tofu synth
-                small batch locavore austin. Squid mlkshk authe ntic pinterest,
-                pour-over gastropub Music seitan sartorial humblebrag.
+                <h4>
+                Me apasiona la música y también toco varios instrumentos,
+                como la guitarra, saxo y bajo. Mis géneros musicales favoritos
+                son el Jazz, Heavy Metal e Instrumental.</h4>
               </p>
             </article>
           </div>
@@ -494,21 +502,21 @@ export const Body2 = () => {
               data-toggle="modal"
             >
               <span
-                className="fa fa-fw fa-camera-retro"
+                className="fa fa-fw fa-gamepad" 
                 aria-hidden="true"
-                title="This symbolizes I Love to capture moments
-                      "
+                title="Joystick"
               />
             </a>
             <article className="portfolio-item-Three">
               <header>
-                <h3>photography</h3>
+                <h3>Videojuegos</h3>
               </header>
               <p>
-                I Love to capture beautiful moments. life deep v austin schlitz
-                drinking vinegar, messen ger bag slow-carb. Migas tumblr kombucha
-                you probably hav en't heard of them +1 chicharrones. Tilde
-                wayfarers craft beer stumptown, humblebrag ugh whatever.
+                <h4>
+                En mis ratos libres me gusta jugar
+                videojuegos competitivos como Quake,
+                Counter-Strike, Rocket-League y Ajedrez,
+                entre otros. </h4>
               </p>
             </article>
           </div>
@@ -603,10 +611,12 @@ export const Body2 = () => {
             <article className="about-item-One">
               <header>
                 <h3>Backend</h3>
-                <h3>.Net</h3>
+                <h3>.Net 5 & 6</h3>
               </header>
               <p>
-              C#, oop, api rest, microservices architecture, design patterns, repository pattern, entity framework, data structures
+                <h4>C#, POO, Api Rest, ORM Entity Framework, arquitectura de microservicios, patrones de diseño, 
+              patrón repositorio,  estructuras de datos, Windows Forms</h4>
+              
               </p>
             </article>
           </div>
@@ -621,10 +631,11 @@ export const Body2 = () => {
                 <h3>Frontend</h3>
                 <h3>React</h3>
               </header>
-              <p>
-                Four dollar toast messenger bag green juice, organic cliche tofu
-                synth small batch locavore austin. Squid mlkshk authe ntic
-                pinterest, pour-over gastropub XOXO seitan sartorial humblebrag.
+              <p><h4>Html, Css, Javascript, Manejo de jsons, api fetch, 
+                Carga dinámica de datos, Node.js, Express.js,
+                Electron.js, React, Bootstrap
+              </h4>
+                 
               </p>
             </article>
           </div>
@@ -636,16 +647,20 @@ export const Body2 = () => {
             />*/}
             <article className="about-item-One">
               <header>
-                <h3>75%</h3>
-                <h3>Photoshop</h3>
+                <h3>Databases</h3>
+                <h3>Sql y NoSql</h3>
               </header>
               <p>
-                Four dollar toast messenger bag green juice, organic cliche tofu
-                synth small batch locavore austin. Squid mlkshk authe ntic
-                pinterest, pour-over gastropub XOXO seitan sartorial humblebrag.
+                <h4>Diagrama entidad-relacion, SQL (MySql, MariaDB,
+                  SQLServer), NoSql (MongoDb, Cassandra). Elasticsearch
+                  en proceso.
+                </h4>
+
               </p>
             </article>
           </div>
+          </div>
+          <div className="row">
           <div className="col-sm-4 center-block about-item">
             {/*<img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
@@ -654,18 +669,36 @@ export const Body2 = () => {
             />*/}
             <article className="about-item-One">
               <header>
-                <h3>75%</h3>
-                <h3>Photoshop</h3>
+                <h3>Diseño</h3>
+                <h3>Adobe</h3>
               </header>
               <p>
-                Four dollar toast messenger bag green juice, organic cliche tofu
-                synth small batch locavore austin. Squid mlkshk authe ntic
-                pinterest, pour-over gastropub XOXO seitan sartorial humblebrag.
+                <h4>Adobe XD, Adobe Illustrator y Adobe photoshop. 
+                  Sony Vegas para edición de video</h4>
               </p>
             </article>
           </div>
-         
-        </div>
+          
+          <div className="col-sm-4 center-block about-item">
+            {/*<img
+              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
+              className="img-responsive"
+              alt=""
+            />*/}
+            <article className="about-item-One">
+              <header>
+                <h3>Otros</h3>
+                <h3>Lenguajes y Software</h3>
+              </header>
+              <p><h4>Lenguajes: Python, Smalltalk, Java. <br></br>
+              Software: Postman, VS Code, VS Community
+              </h4>
+                 
+              </p>
+            </article>
+          </div>
+          </div>
+        
       </div>
     </section>
     {/* Contact Section */}
@@ -741,16 +774,17 @@ export const Body2 = () => {
       </div>
     </section>*/}
     {/* Footer */}
-    <footer className="text-center">
+    <footer id="contact"className="text-center">
       <div className="footer-above">
         <div className="container">
           <div className="row">
             <div className="footer-col col-md-4">
               <h3>UBICACION</h3>
               <p>
+                <h4>
                 Quilmes, Buenos Aires
                 <br />
-                Argentina
+                Argentina</h4>
               </p>
             </div>
             <div className="footer-col col-md-4">
@@ -758,26 +792,26 @@ export const Body2 = () => {
               <ul className="list-inline">
                 <li>
                   <a
-                    href="https://www.behance.net/dasdezine"
+                    href="https://www.facebook.com/RoTaiKo/"
                     target="_blank"
                     className="btn-social btn-outline"
-                    alt="Behance"
-                    title="Behance"
+                    alt="Facebook"
+                    title="Facebook"
                   >
-                    <i className="fa fa-fw fa-behance" aria-hidden="true" />
+                    <i className="fa fa-fw fa-facebook" aria-hidden="true" />
                     <span className="sr-only">Facebook</span>
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://codepen.io/collection/ABajba/"
+                    href="https://www.linkedin.com/in/rilago/"
                     target="_blank"
                     className="btn-social btn-outline"
-                    alt="Codepen"
-                    title="Codepen"
+                    alt="LinkedIn"
+                    title="LinkedIn"
                   >
-                    <i className="fa fa-fw fa-codepen" aria-hidden="true" />
-                    <span className="sr-only">codepen</span>
+                    <i className="fa fa-fw fa-linkedin" aria-hidden="true" />
+                    <span className="sr-only">LinkedIn</span>
                   </a>
                 </li>
                 <li>
@@ -798,16 +832,17 @@ export const Body2 = () => {
               <h3>Contacto</h3>
               <ul className="list-inline">
                 <li>
-                  <a
-                    href="tel:0091 90 51 314800"
-                    className="btn-social btn-outline"
-                    alt="My Phone number"
-                    title="+54 91149468452"
-                  >
-                    <i className="fa fa-fw fa-phone" aria-hidden="true" />
-                    <span className="sr-only">Teléfono</span>
-                  </a>
-                </li>
+                    <a
+                      href="https://walink.co/5e289b"
+                      target="_blank"
+                      className="btn-social btn-outline"
+                      alt="Whatsapp"
+                      title="Whatsapp"
+                    >
+                      <i className="fa fa-fw fa-whatsapp" aria-hidden="true" />
+                      <span className="sr-only">Whatsapp</span>
+                    </a>
+                  </li>
                 <li>
                   <a
                     href="mailto:rilago@protonmail.com"
@@ -820,7 +855,7 @@ export const Body2 = () => {
                   </a>
                 </li>
               </ul>
-              <p>Puedes contactarme mediante mi teléfono personal o mediante mi e-mail.</p>
+              <p><h4>Puedes contactarme mediante mi teléfono personal o mediante mi e-mail.</h4></p>
             </div>
           </div>
         </div>
@@ -832,6 +867,7 @@ export const Body2 = () => {
               Pagina diseñada por{" "}
               <a href="https://github.com/RodrigoLago/" target="_blank">
                 Rodrigo Lago
+                
               </a>
               <br />
               Copyright © 2022
