@@ -422,15 +422,45 @@ export const Body2 = () => {
       </div>
     </header>
     {/* My Likes Grid Section */}
+    <div id='likes-cv'>
+
     <section id="myLikes">
       <div className="container">
-        <div className="row">
+        <div className="row aboutme">
           <div className="col-lg-12 text-center">
-            <h2>What I Do</h2>
+            <h2>¿QUE HAGO?</h2>
             <hr className="star-primary" />
           </div>
         </div>
+        
         <div className="row">
+        <div className="col-sm-4 portfolio-item">
+            <a
+              href="#"
+              className="portfolio-link text-center"
+              data-toggle="modal"
+            >
+              <span
+                className="fa fa-fw fa-laptop"
+                aria-hidden="true"
+                title="This symbolizes I Like to design and develop websites
+                      "
+              />
+            </a>
+            <article className="portfolio-item-Two">
+              <header>
+                <h3>Desarrollo full stack</h3>
+              </header>
+              <p>
+                Soy desarrollador full stack. 
+                
+                I am a front-End designer. I do design and coding of web
+                application. Swag brooklyn banh mi stumptown loca vore yr migas
+                tousled chicharrones sriracha cray leggings. Street art tousled
+                kale chips poutine schlitz. Polaroid roof party austin.
+              </p>
+            </article>
+          </div>
           <div className="col-sm-4 portfolio-item">
             <a
               href="#"
@@ -446,7 +476,7 @@ export const Body2 = () => {
             </a>
             <article className="portfolio-item-One">
               <header>
-                <h3>Listen music</h3>
+                <h3>Musico</h3>
               </header>
               <p>
                 All kind of melodious music because it suits into my ears. Four
@@ -456,31 +486,7 @@ export const Body2 = () => {
               </p>
             </article>
           </div>
-          <div className="col-sm-4 portfolio-item">
-            <a
-              href="#"
-              className="portfolio-link text-center"
-              data-toggle="modal"
-            >
-              <span
-                className="fa fa-fw fa-laptop"
-                aria-hidden="true"
-                title="This symbolizes I Like to design and develop websites
-                      "
-              />
-            </a>
-            <article className="portfolio-item-Two">
-              <header>
-                <h3>design and develop</h3>
-              </header>
-              <p>
-                I am a front-End designer. I do design and coding of web
-                application. Swag brooklyn banh mi stumptown loca vore yr migas
-                tousled chicharrones sriracha cray leggings. Street art tousled
-                kale chips poutine schlitz. Polaroid roof party austin.
-              </p>
-            </article>
-          </div>
+          
           <div className="col-sm-4 portfolio-item">
             <a
               href="#"
@@ -510,12 +516,12 @@ export const Body2 = () => {
       </div>
     </section>
     <div>
-      <hr id="portfolio" className="loc-hr" />
+     {/* <hr  className="loc-hr" />*/}
     </div>
     {/* Portfolio Grid Section */}
-    <section >
+    <section id="portfolio" >
       <div className="container">
-        <div className="row">
+        <div className="row cv">
           <div className="col-lg-12 text-center">
             <h2>Curriculum</h2>
             <hr className="star-primary" />
@@ -561,7 +567,7 @@ export const Body2 = () => {
           </a>
         </div>
       </div>
-      <div className="text-center btn-style double-line">
+      <div className="text-center btn-style">
         <div className="btn-styleLine">
           <a href="#" className="btn btn-lg btn-outline">
             <i className="fa fa-fw fa-download" /> Currículum
@@ -569,15 +575,21 @@ export const Body2 = () => {
         </div>
       </div>
     </section>
+
+    </div>
+
     <div>
       <hr id="about" className="loc-hr" />
     </div>
+
+
     {/* About Section */}
+    <div id='contact-footer'>
     <section id="about">
       <div className="container">
-        <div className="row">
+        <div className="row habilidades">
           <div className="col-lg-12 text-center">
-            <h2>Mis conocimientos</h2>
+            <h2>HABILIDADES</h2>
             <hr className="star-primary" />
           </div>
         </div>
@@ -590,13 +602,11 @@ export const Body2 = () => {
           />*/}
             <article className="about-item-One">
               <header>
-                <h3>75%</h3>
-                <h3>Photoshop</h3>
+                <h3>Backend</h3>
+                <h3>.Net</h3>
               </header>
               <p>
-                Four dollar toast messenger bag green juice, organic cliche tofu
-                synth small batch locavore austin. Squid mlkshk authe ntic
-                pinterest, pour-over gastropub XOXO seitan sartorial humblebrag.
+              C#, oop, api rest, microservices architecture, design patterns, repository pattern, entity framework, data structures
               </p>
             </article>
           </div>
@@ -608,8 +618,8 @@ export const Body2 = () => {
             />*/}
             <article className="about-item-One">
               <header>
-                <h3>75%</h3>
-                <h3>Photoshop</h3>
+                <h3>Frontend</h3>
+                <h3>React</h3>
               </header>
               <p>
                 Four dollar toast messenger bag green juice, organic cliche tofu
@@ -659,6 +669,9 @@ export const Body2 = () => {
       </div>
     </section>
     {/* Contact Section */}
+    
+
+            {/*
     <section id="contact">
       <div className="container">
         <div className="row">
@@ -715,7 +728,7 @@ export const Body2 = () => {
               </div>
               <br />
               <div className="contact-btn text-center btn-style">
-                <div className="btn-styleLine double-line page-scroll">
+                <div className="btn-styleLine page-scroll">
                   <a href="#portfolio" className="btn btn-lg btn-outline">
                     <i className="fa fa-fw fa-paper-plane" />
                     Send
@@ -726,22 +739,22 @@ export const Body2 = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section>*/}
     {/* Footer */}
     <footer className="text-center">
       <div className="footer-above">
         <div className="container">
           <div className="row">
             <div className="footer-col col-md-4">
-              <h3>Location</h3>
+              <h3>UBICACION</h3>
               <p>
-                63B East Kamalapur
+                Quilmes, Buenos Aires
                 <br />
-                Kolata 700028, WB India
+                Argentina
               </p>
             </div>
             <div className="footer-col col-md-4">
-              <h3>Around the Web</h3>
+              <h3>Mis redes:</h3>
               <ul className="list-inline">
                 <li>
                   <a
@@ -769,45 +782,45 @@ export const Body2 = () => {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/dasdezine"
+                    href="https://github.com/RodrigoLago/"
                     target="_blank"
                     className="btn-social btn-outline"
-                    alt="Twitter"
-                    title="Twitter"
+                    alt="Github"
+                    title="Github"
                   >
-                    <i className="fa fa-fw fa-twitter" aria-hidden="true" />
-                    <span className="sr-only">twitter</span>
+                    <i className="fa fa-fw fa-github" aria-hidden="true" />
+                    <span className="sr-only">Github</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="footer-col col-md-4">
-              <h3>Contact Info</h3>
+              <h3>Contacto</h3>
               <ul className="list-inline">
                 <li>
                   <a
                     href="tel:0091 90 51 314800"
                     className="btn-social btn-outline"
                     alt="My Phone number"
-                    title="+91 9051314800"
+                    title="+54 91149468452"
                   >
                     <i className="fa fa-fw fa-phone" aria-hidden="true" />
-                    <span className="sr-only">My Phone number</span>
+                    <span className="sr-only">Teléfono</span>
                   </a>
                 </li>
                 <li>
                   <a
-                    href="mailto:ipabhi@gmail.com"
+                    href="mailto:rilago@protonmail.com"
                     className="btn-social btn-outline"
-                    alt="My E-mail ID"
-                    title="My E-mail ID"
+                    alt="E-mail"
+                    title="E-mail"
                   >
                     <i className="fa fa-fw fa-envelope" aria-hidden="true" />
-                    <span className="sr-only">My E-mail</span>
+                    <span className="sr-only">E-mail</span>
                   </a>
                 </li>
               </ul>
-              <p>If you want to hire me please use phone contact or my E-mail.</p>
+              <p>Puedes contactarme mediante mi teléfono personal o mediante mi e-mail.</p>
             </div>
           </div>
         </div>
@@ -827,6 +840,7 @@ export const Body2 = () => {
         </div>
       </div>
     </footer>
+    </div>
     {/* Scroll to Top Button (Only visible on small and extra-small screen sizes) */}
     <div className="scroll-top page-scroll visible-xs visible-sm">
       <a className="btn btn-primary" href="#">
