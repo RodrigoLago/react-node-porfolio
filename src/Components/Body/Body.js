@@ -558,20 +558,22 @@ export const Body2 = () => {
         </div>
         <div className="col-sm-3 portfolio-item">
           <a href="#" className="portfolio-link">
+            {/*
             <img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052404/portfolio_card_xenfuv.png"
               className="img-responsive"
               alt=""
-            />
+            />*/}
           </a>
         </div>
         <div className="col-sm-3 portfolio-item">
           <a href="#" className="portfolio-link">
+            {/*
             <img
               src="https://res.cloudinary.com/dasdezine/image/upload/v1458052405/portfolio_mocup_hoxha8.png"
               className="img-responsive"
               alt=""
-            />
+            />*/}
           </a>
         </div>
       </div>
