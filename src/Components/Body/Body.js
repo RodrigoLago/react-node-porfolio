@@ -8,7 +8,7 @@ const Cards = () => {
   return <div id="proyectos-section">
     <div className="portfolio-container">
       <div className="portfolio-card">
-        <a href="https://github.com/ProyectoEcommerce">
+        <a href="https://github.com/ProyectoEcommerce" target="_blank">
         <div className="portfolioImage">
           <img
             src="https://i.ibb.co/HgZ0D4v/indice-busqueda-copia-1.jpg"

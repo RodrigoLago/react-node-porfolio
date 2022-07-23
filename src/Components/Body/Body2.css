@@ -424,7 +424,9 @@ div.seeMore-btn .btn-outline, div.contact-btn .btn-outline {
 div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
     background: var(--firstcolor);
 } 
-
+#proyectos, #about{
+    padding-bottom: 0px;
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #000000;
