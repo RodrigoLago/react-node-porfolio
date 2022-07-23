@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700|Lato:400,700);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /****created and maintained  @dasdezine****/
 :root {
@@ -119,8 +118,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #ffffff;
-    /*background:#F7CC01 url("https://res.cloudinary.com/dasdezine/image/upload/v1458051926/hero_tab_xawhqo.jpg") no-repeat;*/
-    background: url(https://i.ibb.co/pQDMjZq/header.png) no-repeat;
+    background: url(https://i.ibb.co/4TynBKV/header.webp) no-repeat;
     background-position: 50% 100%;
 
 }
@@ -169,7 +167,7 @@ header .intro-text .skills {
 
 @media(min-width:1024px) {
     header {
-        background: url(https://i.ibb.co/pQDMjZq/header.png) no-repeat 50% 0%;
+        background: url(https://i.ibb.co/4TynBKV/header.webp) no-repeat 50% 0%;
         background-position: 50% 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -309,7 +307,7 @@ section.success {
 }
 
 #likes-cv{
-    background: url(https://i.ibb.co/xgb1pjC/container1.png) no-repeat 60% 0%;
+    background: url(https://i.ibb.co/QF1w5Bf/container1-1.webp) no-repeat 60% 0%;
     background-size: cover;
 }
 #myLikes{
@@ -343,7 +341,7 @@ section.success {
     
 }
 #contact-footer{
-    background: url(https://i.ibb.co/7p7qdDD/fondo.png) no-repeat 30% 0% ;
+    background: url(https://i.ibb.co/kqSmJ5X/fondo.webp) no-repeat 30% 0% ;
     background-size: cover;
     
 }
@@ -510,9 +508,7 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 
 /*******btn double line style ends***********/
 
-#contact {
-    
-}
+
 #contact hr.star-primary:after {
     background-color: #d2eae3;
 }

@@ -11,7 +11,7 @@ const Cards = () => {
         <a href="https://github.com/ProyectoEcommerce" target="_blank">
         <div className="portfolioImage">
           <img
-            src="https://i.ibb.co/HgZ0D4v/indice-busqueda-copia-1.jpg"
+            src="https://i.ibb.co/jg80kXF/ecommerce.webp"
             alt="Ecommerce"
             srcSet=""
           />
@@ -43,7 +43,7 @@ const Cards = () => {
       <a href='https://github.com/Hitchway' target="_blank">
         <div className="portfolioImage">
           <img
-            src="https://i.ibb.co/1n1hdtB/cine-1.png"
+            src="https://i.ibb.co/VHRbHZj/cine.webp"
             alt="Hitchway"
             srcSet=""
           />
@@ -72,7 +72,7 @@ const Cards = () => {
         <a href='#'>
         <div className="portfolioImage">
           <img
-            src="https://i.ibb.co/Kr5LQrv/portfolioback-1.png"
+            src="https://i.ibb.co/Tb78WTP/portfolio.webp"
             alt="Portfolio"
             srcSet=""
           />
