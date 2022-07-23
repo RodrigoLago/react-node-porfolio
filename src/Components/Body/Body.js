@@ -8,21 +8,25 @@ const Cards = () => {
   return <div id="proyectos">
     <div className="portfolio-container">
       <div className="portfolio-card">
+        <a href="https://github.com/ProyectoEcommerce">
         <div className="portfolioImage">
           <img
-          className='img-card'
-            src="https://i.ibb.co/LYfr6YL/indice-busqueda-copia.jpg"
+            src="https://i.ibb.co/HgZ0D4v/indice-busqueda-copia-1.jpg"
             alt="Ecommerce"
             srcSet=""
           />
           
         </div>
+        </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Ecommerce website</h5>
           <h3 className="portfolioTitle">Top Choise Hardware</h3>
           <p>
             <h4>
-            Ecommerce hecho en .Net con arquitectura de microservicios y base de datos SQL Server. Front-end hecho con Html, Css y Javascript</h4>
+            Ecommerce hecho en .Net con arquitectura de microservicios 
+            y base de datos SQL Server. Front-end hecho con Html, Css y 
+            Javascript. Se trabajó con un equipo de desarrollo utilizando 
+            Scrum.</h4>
             <br />
             {/* View on Github. */}
           </p>
@@ -34,20 +38,25 @@ const Cards = () => {
         </div>
       </div>
     </div>
+    
     <div className="portfolio-container">
       <div className="portfolio-card">
+      <a href='https://github.com/Hitchway' target="_blank">
         <div className="portfolioImage">
           <img
-            src="https://www.matteomortelliti.com/img/portfolio/st-bosco-edits.png"
+            src="https://i.ibb.co/1n1hdtB/cine-1.png"
             alt="Hitchway"
             srcSet=""
           />
         </div>
+        </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Website</h5>
           <h3 className="portfolioTitle">Hitchway Cinema</h3>
           <p><h4>
-            Website para la gestion de ventas de entradas de un cine. El back-end esta realizado con arquitectura monolitica en .Net, base de datos SQLServer y front-end con Html, Css y Javascript.</h4>
+            Website para la gestion de ventas de entradas de un cine. 
+            El back-end esta realizado con arquitectura monolitica en .Net, 
+            base de datos SQLServer y front-end con Html, Css y Javascript.</h4>
             <br />
             {/* View on Github. */}
           </p>
@@ -65,7 +74,7 @@ const Cards = () => {
         <div className="portfolioImage">
           <img
             src="https://i.ibb.co/Kr5LQrv/portfolioback-1.png"
-            alt="Suburban Contracting"
+            alt="Portfolio"
             srcSet=""
           />
         </div>
@@ -74,7 +83,8 @@ const Cards = () => {
           <h5 className="cardCategory">Website</h5>
           <h3 className="portfolioTitle">Portfolio</h3>
           <p>
-            <h4>El sitio web que usted esta viendo se realizó con React, Node.js, Express.js y Webpack</h4>
+            <h4>El sitio web que usted esta viendo en este momento
+              se realizó con React, Node.js, Express.js y Webpack</h4>
             <br />
             {/* View on Github. */}
           </p>
@@ -395,11 +405,6 @@ export const Body2 = () => {
           </div>
           <div className="row">
             <div className="col-sm-4 center-block about-item">
-              {/*<img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
-              className="img-responsive"
-              alt=""
-          />*/}
               <article className="about-item-One">
                 <header>
                   <h3>Backend .Net</h3>
@@ -412,11 +417,6 @@ export const Body2 = () => {
               </article>
             </div>
             <div className="col-sm-4 center-block about-item">
-              {/*<img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
-              className="img-responsive"
-              alt=""
-            />*/}
               <article className="about-item-One">
                 <header>
                   <h3>Frontend React</h3>
@@ -430,19 +430,13 @@ export const Body2 = () => {
               </article>
             </div>
             <div className="col-sm-4 center-block about-item">
-              {/*<img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
-              className="img-responsive"
-              alt=""
-            />*/}
               <article className="about-item-One">
                 <header>
                   <h3>Databases Sql y NoSql</h3>
                 </header>
                 <p>
                   <h4>Diagrama entidad-relacion, SQL (MySql, MariaDB,
-                    SQLServer), NoSql (MongoDb, Cassandra). Elasticsearch
-                    en proceso.
+                    SQLServer), NoSql (MongoDb, Cassandra)
                   </h4>
 
                 </p>
@@ -451,11 +445,6 @@ export const Body2 = () => {
           </div>
           <div className="row">
             <div className="col-sm-4 center-block about-item">
-              {/*<img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
-              className="img-responsive"
-              alt=""
-            />*/}
               <article className="about-item-One">
                 <header>
                   <h3>Diseño - Adobe</h3>
@@ -467,12 +456,19 @@ export const Body2 = () => {
               </article>
             </div>
 
-            <div className="col-sm-4 center-block about-item">
-              {/*<img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png"
-              className="img-responsive"
-              alt=""
-            />*/}
+            <div className="col-sm-4 center-block about-item">       
+              <article className="about-item-One">
+                <header>
+                  <h3>Metodologias agiles</h3>
+                </header>
+                <p><h4>
+                  Scrum, Kanban, Scrumban, Xp
+                </h4>
+                </p>
+              </article>
+            </div>
+
+            <div className="col-sm-4 center-block about-item">       
               <article className="about-item-One">
                 <header>
                   <h3>Otros</h3>
@@ -480,11 +476,24 @@ export const Body2 = () => {
                 <p><h4>Lenguajes: Python, Smalltalk, Java. <br></br>
                   Software: Postman, VS Code, VS Community
                 </h4>
-
                 </p>
               </article>
             </div>
           </div>
+          <div className='row'>
+            <div className='col-sm-4 center-block about-item'></div>
+          <div className="col-sm-4 center-block about-item">       
+              <article className="about-item-One">
+                <header>
+                  <h3>En proceso de aprendizaje</h3>
+                </header>
+                <p><h4>Elasticsearch y Redis
+                </h4>
+                </p>
+              </article>
+            </div>
+          </div>
+          <div className='col-sm-4 center-block about-item'></div>
 
         </div>
       </section>
@@ -579,18 +588,6 @@ export const Body2 = () => {
                 <ul className="list-inline">
                   <li>
                     <a
-                      href="https://www.facebook.com/RoTaiKo/"
-                      target="_blank"
-                      className="btn-social btn-outline"
-                      alt="Facebook"
-                      title="Facebook"
-                    >
-                      <i className="fa fa-fw fa-facebook" aria-hidden="true" />
-                      <span className="sr-only">Facebook</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
                       href="https://www.linkedin.com/in/rilago/"
                       target="_blank"
                       className="btn-social btn-outline"
@@ -611,6 +608,18 @@ export const Body2 = () => {
                     >
                       <i className="fa fa-fw fa-github" aria-hidden="true" />
                       <span className="sr-only">Github</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/RoTaiKo/"
+                      target="_blank"
+                      className="btn-social btn-outline"
+                      alt="Facebook"
+                      title="Facebook"
+                    >
+                      <i className="fa fa-fw fa-facebook" aria-hidden="true" />
+                      <span className="sr-only">Facebook</span>
                     </a>
                   </li>
                 </ul>
@@ -651,13 +660,11 @@ export const Body2 = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                Pagina diseñada por{" "}
+              <p>Pagina diseñada por{" "}
                 <a href="https://github.com/RodrigoLago/" target="_blank">
                   Rodrigo Lago
-
                 </a>
-                <br />
-                Copyright © 2022
+                 , Copyright © 2022</p>
               </div>
             </div>
           </div>
