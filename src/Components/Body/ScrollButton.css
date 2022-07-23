@@ -69,9 +69,19 @@ body {
     }
     #mouse-scroll .mouse:hover{
       border: 2px solid #fff000;
-      transition: 2s;
+      transition: 0.2s;
     }
-    
+    .char{
+      display: inline;
+      position: relative;
+      top: 0;
+      transition: top ease-out 0.5s;
+    }
+    .char:hover{
+      color: #fff000;
+      cursor:default;
+      top: -30px;
+    }
     @-webkit-keyframes animated-mouse {
       0% {
         opacity: 1;

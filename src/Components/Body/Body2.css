@@ -368,10 +368,12 @@ section.success {
     border-radius:5px 20px 5px;
     color: var(--firstcolor);
     text-shadow: 2px 2px 2px #30007c;
+    transition: 0.2s;
 }
 
 #myLikes .portfolio-link :hover {
-    text-shadow: 5px 5px 1px #30007c;
+    
+    text-shadow: 8px 8px 2px #1f0052;
     transition: 0.2s;
 }
 

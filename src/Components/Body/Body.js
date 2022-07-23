@@ -153,7 +153,19 @@ export const Body2 = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="intro-text">
-              <span className="name">Rodrigo Lago</span>
+              <span className="name">
+                <div className='char'>R</div>
+                <div className='char'>O</div>
+                <div className='char'>D</div>
+                <div className='char'>R</div>
+                <div className='char'>I</div>
+                <div className='char'>G</div>
+                <div className='char'>O&nbsp;</div>
+                <div className='char'>L</div>
+                <div className='char'>A</div>
+                <div className='char'>G</div>
+                <div className='char'>O</div>
+              </span>
               <span className="subtitle">Programador full stack</span>
               <span className="skills"></span>
               <hr className="star-light" />
