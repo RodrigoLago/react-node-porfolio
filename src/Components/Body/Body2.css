@@ -257,7 +257,7 @@ header .intro-text .skills {
     color:#fff;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color: var(--magenta);
+    color: var(--firstcolor);
 }
 
 .navbar-default .navbar-nav>.active>a, 

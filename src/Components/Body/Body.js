@@ -5,7 +5,7 @@ import './ScrollButton.css'
 import './Card.css'
 
 const Cards = () => {
-  return <div id="proyectos">
+  return <div id="proyectos-section">
     <div className="portfolio-container">
       <div className="portfolio-card">
         <a href="https://github.com/ProyectoEcommerce">
@@ -28,7 +28,6 @@ const Cards = () => {
             Javascript. Se trabajó con un equipo de desarrollo utilizando 
             Scrum.</h4>
             <br />
-            {/* View on Github. */}
           </p>
           <div className="row fila-tags">
           <h5 className="col-lg-4 tags">.Net</h5>
@@ -58,7 +57,7 @@ const Cards = () => {
             El back-end esta realizado con arquitectura monolitica en .Net, 
             DB SQLServer y front-end con Html, Css y Javascript.</h4>
             <br />
-            {/* View on Github. */}
+
           </p>
           <div className="row fila-tags">
           <h5 className="col-lg-4 tags">.Net</h5>
@@ -86,7 +85,7 @@ const Cards = () => {
             <h4>El sitio web que usted esta viendo en este momento
               se realizó con React, Node.js, Express.js y Webpack</h4>
             <br />
-            {/* View on Github. */}
+
           </p>
           <div className="row fila-tags"> 
           <h5 className="col-lg-6 tags">React</h5>
@@ -101,14 +100,6 @@ const Cards = () => {
 
 export const Body2 = () => {
   return <div>
-    {/* Custom CSS */}
-    <link href="css/dasdezine.css" rel="stylesheet" />
-    {/* HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries */}
-    {/* WARNING: Respond.js doesn't work if you view the page via file:// */}
-    {/*[if lt IE 9]>
-      
-      
-        <![endif]*/}
     {/* Navigation */}
     <nav className="navbar navbar-default navbar-color navbar-fixed-top">
       <div className="container">
@@ -170,27 +161,7 @@ export const Body2 = () => {
 
           </div>
         </div>
-        {/*
-        
-        <section href="#portfolio" id="section07" className="">
-          <a href="#portfolio">
-            <span />
-            <span />
-            <span />
-            Ver mas
-          </a>
-        </section>
 
-        <div className="seeMore-btn text-center btn-style">
-          <div className="btn-styleLine double-line page-scroll">
-            <a href="#portfolio" className="btn btn-lg btn-outline">
-              <i className="" />
-              <span className="button-text">Ver más</span>
-            </a>
-          </div>
-        </div>
-        
-        */}
         <div className="page-scroll">
           <a href="#myLikes">
             <div id="mouse-scroll">
@@ -332,48 +303,6 @@ export const Body2 = () => {
             </div>
           </div>
         </div>
-        
-        {/*<div className="row">
-        <div className="col-sm-3 portfolio-item">
-          <a href="#" className="portfolio-link">
-            <img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052402/portfolio_book_y7ypqt.png"
-              className="img-responsive"
-              alt=""
-      />
-          </a>
-        </div>
-        <div className="col-sm-3 portfolio-item">
-          <a href="#" className="portfolio-link">
-            {/* 
-            <img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052400/portfolio_label_e5kv1h.png"
-              className="img-responsive"
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="col-sm-3 portfolio-item">
-          <a href="#" className="portfolio-link">
-            {/*
-            <img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052404/portfolio_card_xenfuv.png"
-              className="img-responsive"
-              alt=""
-            />
-          </a>
-        </div>
-        <div className="col-sm-3 portfolio-item">
-          <a href="#" className="portfolio-link">
-            
-            <img
-              src="https://res.cloudinary.com/dasdezine/image/upload/v1458052405/portfolio_mocup_hoxha8.png"
-              className="img-responsive"
-              alt=""
-            />
-          </a>
-        </div>
-      </div>*/}
         <div className="text-center btn-style">
           <div className="btn-styleLine">
             <a href="#" className="btn btn-lg btn-outline">
@@ -386,7 +315,7 @@ export const Body2 = () => {
     </div>
 
     <div>
-      <hr id="about" className="loc-hr" />
+      <hr className="loc-hr" />
     </div>
 
 
@@ -494,78 +423,7 @@ export const Body2 = () => {
 
         </div>
       </section>
-      {/* Contact Section */}
 
-
-      {/*
-    <section id="contact">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12 text-center">
-            <h2>Contactarme</h2>
-            <hr className="star-primary" />
-          </div>
-        </div>
-        <div className="row form-padding">
-          <div className="col-lg-8 col-lg-offset-2">
-            <form name="sentMessage" id="contactForm" noValidate="">
-              <div className="row control-group">
-                <div className="form-group col-xs-12 floating-label-form-group controls">
-                  <label>Name</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Name"
-                    id="name"
-                    required=""
-                    data-validation-required-message="Please enter your name."
-                  />
-                  <p className="help-block text-danger" />
-                </div>
-              </div>
-              <div className="row control-group">
-                <div className="form-group col-xs-12 floating-label-form-group controls">
-                  <label>Email Address</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Email Address"
-                    id="email"
-                    required=""
-                    data-validation-required-message="Please enter your email address."
-                  />
-                  <p className="help-block text-danger" />
-                </div>
-              </div>
-              <div className="row control-group">
-                <div className="form-group col-xs-12 floating-label-form-group controls">
-                  <label>Message</label>
-                  <textarea
-                    rows={5}
-                    className="form-control"
-                    placeholder="Message"
-                    id="message"
-                    required=""
-                    data-validation-required-message="Please enter a message."
-                    defaultValue={""}
-                  />
-                  <p className="help-block text-danger" />
-                </div>
-              </div>
-              <br />
-              <div className="contact-btn text-center btn-style">
-                <div className="btn-styleLine page-scroll">
-                  <a href="#portfolio" className="btn btn-lg btn-outline">
-                    <i className="fa fa-fw fa-paper-plane" />
-                    Send
-                  </a>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>*/}
       {/* Footer */}
       <footer id="contact" className="text-center">
         <div id="footer-div">
