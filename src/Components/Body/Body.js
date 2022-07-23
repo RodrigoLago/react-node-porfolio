@@ -54,9 +54,9 @@ const Cards = () => {
           <h5 className="cardCategory">Website</h5>
           <h3 className="portfolioTitle">Hitchway Cinema</h3>
           <p><h4>
-            Website para la gestion de ventas de entradas de un cine. 
+            Website para gestionar ventas de entradas de un cine. 
             El back-end esta realizado con arquitectura monolitica en .Net, 
-            base de datos SQLServer y front-end con Html, Css y Javascript.</h4>
+            DB SQLServer y front-end con Html, Css y Javascript.</h4>
             <br />
             {/* View on Github. */}
           </p>
@@ -231,7 +231,6 @@ export const Body2 = () => {
           <div className="row">
             <div className="col-sm-4 portfolio-item">
               <a
-                href="#"
                 className="portfolio-link text-center"
                 data-toggle="modal"
               >
@@ -258,7 +257,6 @@ export const Body2 = () => {
             </div>
             <div className="col-sm-4 portfolio-item">
               <a
-                href="#"
                 className="portfolio-link text-center"
                 data-toggle="modal"
               >
@@ -284,14 +282,13 @@ export const Body2 = () => {
 
             <div className="col-sm-4 portfolio-item">
               <a
-                href="#"
                 className="portfolio-link text-center"
                 data-toggle="modal"
               >
                 <span
                   className="fa fa-fw fa-gamepad"
                   aria-hidden="true"
-                  title="Joystick"
+                  title="Gamepad"
                 />
               </a>
               <article className="portfolio-item-Three">
