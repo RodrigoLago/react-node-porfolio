@@ -4,6 +4,7 @@
 :root {
     --firstcolor: #fff000;
     --amarillo: #fff000;
+    --magenta: #ff00ff;
     --fullwidth: 100%;
   }
 html{
@@ -332,17 +333,19 @@ section.success {
 #myLikes .portfolio-item header, #about .about-item header {
     background: none;
 }
-
 .about-item .img-responsive {
     margin: 0 auto;
 }
-.habilidades, .aboutme, .cv{
+
+.habilidades, .aboutme, .cv,.proyectos{
     padding-top: 60px;
+    padding-bottom: 0px;
     
 }
 #contact-footer{
-    background: url(https://i.ibb.co/GtcdLSx/fondo4.png) no-repeat 30% 0%;
+    background: url(https://i.ibb.co/7p7qdDD/fondo.png) no-repeat 30% 0% ;
     background-size: cover;
+    
 }
 #portfolio .portfolio-item {
     right: 0;
@@ -580,9 +583,12 @@ footer .footer-col {
 footer .footer-below {
     font-family: 'Poppins', sans-serif;
     padding: 25px 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 110%);
+    
 }
+#footer-div{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 38%, rgba(0,0,0,0.5) 83%, rgba(0,0,0,0) 100%);
+}
+
 
 .btn-social {
     display: inline-block;
