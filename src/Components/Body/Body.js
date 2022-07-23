@@ -1,68 +1,70 @@
 import React from 'react';
-//import './Body.css'
-import './Body2.css'
-import './ScrollButton.css'
-import './Card.css'
+import { Howl } from 'howler';
+import './Body2.css';
+import './ScrollButton.css';
+import './Card.css';
+
+
 
 const Cards = () => {
   return <div id="proyectos-section">
     <div className="portfolio-container">
       <div className="portfolio-card">
         <a href="https://github.com/ProyectoEcommerce" target="_blank">
-        <div className="portfolioImage">
-          <img
-            src="https://i.ibb.co/jg80kXF/ecommerce.webp"
-            alt="Ecommerce"
-            srcSet=""
-          />
-          
-        </div>
+          <div className="portfolioImage">
+            <img
+              src="https://i.ibb.co/jg80kXF/ecommerce.webp"
+              alt="Ecommerce"
+              srcSet=""
+            />
+
+          </div>
         </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Ecommerce website</h5>
           <h3 className="portfolioTitle">Top Choise Hardware</h3>
           <p>
             <h4>
-            Ecommerce hecho en .Net con arquitectura de microservicios 
-            y base de datos SQL Server. Front-end hecho con Html, Css y 
-            Javascript. Se trabajó con un equipo de desarrollo utilizando 
-            Scrum.</h4>
+              Ecommerce hecho en .Net con arquitectura de microservicios
+              y base de datos SQL Server. Front-end hecho con Html, Css y
+              Javascript. Se trabajó con un equipo de desarrollo utilizando
+              Scrum.</h4>
             <br />
           </p>
           <div className="row fila-tags">
-          <h5 className="col-lg-4 tags">.Net</h5>
-          <h5 className="col-lg-4 tags">Api Rest</h5>
-          <h5 className="col-lg-4 tags">SQL Server</h5>
+            <h5 className="col-lg-4 tags">.Net</h5>
+            <h5 className="col-lg-4 tags">Api Rest</h5>
+            <h5 className="col-lg-4 tags">SQL Server</h5>
           </div>
         </div>
       </div>
     </div>
-    
+
     <div className="portfolio-container">
       <div className="portfolio-card">
-      <a href='https://github.com/Hitchway' target="_blank">
-        <div className="portfolioImage">
-          <img
-            src="https://i.ibb.co/VHRbHZj/cine.webp"
-            alt="Hitchway"
-            srcSet=""
-          />
-        </div>
+        <a href='https://github.com/Hitchway' target="_blank">
+          <div className="portfolioImage">
+            <img
+              src="https://i.ibb.co/VHRbHZj/cine.webp"
+              alt="Hitchway"
+              srcSet=""
+            />
+          </div>
         </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Website</h5>
           <h3 className="portfolioTitle">Hitchway Cinema</h3>
           <p><h4>
-            Website para gestionar ventas de entradas de un cine. 
-            El back-end esta realizado con arquitectura monolitica en .Net, 
+            Website para gestionar ventas de entradas de un cine.
+            El back-end esta realizado con arquitectura monolitica en .Net,
             DB SQLServer y front-end con Html, Css y Javascript.</h4>
             <br />
 
           </p>
           <div className="row fila-tags">
-          <h5 className="col-lg-4 tags">.Net</h5>
-          <h5 className="col-lg-4 tags">Api Rest</h5>
-          <h5 className="col-lg-4 tags">SQL Server</h5>
+            <h5 className="col-lg-4 tags">.Net</h5>
+            <h5 className="col-lg-4 tags">Api Rest</h5>
+            <h5 className="col-lg-4 tags">SQL Server</h5>
           </div>
         </div>
       </div>
@@ -70,13 +72,13 @@ const Cards = () => {
     <div className="portfolio-container">
       <div className="portfolio-card">
         <a href='#'>
-        <div className="portfolioImage">
-          <img
-            src="https://i.ibb.co/Tb78WTP/portfolio.webp"
-            alt="Portfolio"
-            srcSet=""
-          />
-        </div>
+          <div className="portfolioImage">
+            <img
+              src="https://i.ibb.co/Tb78WTP/portfolio.webp"
+              alt="Portfolio"
+              srcSet=""
+            />
+          </div>
         </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Website</h5>
@@ -87,9 +89,9 @@ const Cards = () => {
             <br />
 
           </p>
-          <div className="row fila-tags"> 
-          <h5 className="col-lg-6 tags">React</h5>
-          <h5 className="col-lg-6 tags">Node.js</h5>
+          <div className="row fila-tags">
+            <h5 className="col-lg-6 tags">React</h5>
+            <h5 className="col-lg-6 tags">Node.js</h5>
           </div>
         </div>
       </div>
@@ -97,8 +99,49 @@ const Cards = () => {
   </div>
 }
 
-
 export const Body2 = () => {
+  
+    const d = new Howl({
+      src:["https://cdn.freesound.org/previews/316/316898_5385832-lq.mp3"],
+      html5:true
+    });
+    const re = new Howl({
+      src:["https://cdn.freesound.org/previews/316/316908_5385832-lq.mp3"],
+      html5:true
+    });
+    const mi = new Howl({
+      src:["https://cdn.freesound.org/previews/316/316906_5385832-lq.mp3"],
+      html5:true
+    });
+    const fa = new Howl({
+      src:["https://cdn.freesound.org/previews/316/316904_5385832-lq.mp3"],
+      html5:true
+    });
+    const sol = new Howl({
+      src:["https://cdn.freesound.org/previews/316/316912_5385832-lq.mp3"],
+      html5:true
+    })
+    const la = new Howl({
+      src:["https://cdn.freesound.org/previews/316/316902_5385832-lq.mp3"],
+      html5:true
+    });
+    const si = new Howl({
+      src:["https://cdn.freesound.org/previews/579/579224_13063256-lq.mp3"],
+      html5:true
+    });
+    const d2 = new Howl({
+      src:["https://cdn.freesound.org/previews/469/469646_5876986-lq.mp3"],
+      html5:true
+    });
+    const re2 = new Howl({
+      src:["https://cdn.freesound.org/previews/517/517463_11368415-lq.mp3"],
+      html5:true
+    });
+    const mi2 = new Howl({
+      src:["https://cdn.freesound.org/previews/517/517467_11368415-lq.mp3"],
+      html5:true
+    });
+  
   return <div>
     {/* Navigation */}
     <nav className="navbar navbar-default navbar-color navbar-fixed-top">
@@ -154,17 +197,17 @@ export const Body2 = () => {
           <div className="col-lg-12">
             <div className="intro-text">
               <span className="name">
-                <div className='char'>R</div>
-                <div className='char'>O</div>
-                <div className='char'>D</div>
-                <div className='char'>R</div>
-                <div className='char'>I</div>
-                <div className='char'>G</div>
-                <div className='char'>O&nbsp;</div>
-                <div className='char'>L</div>
-                <div className='char'>A</div>
-                <div className='char'>G</div>
-                <div className='char'>O</div>
+                <div className="char" onClick={()=> d.play()}>R</div>
+                <div className='char' onClick={()=> re.play()}>O</div>
+                <div className='char' onClick={()=> mi.play()}>D</div>
+                <div className='char' onClick={()=> fa.play()}>R</div>
+                <div className='char' onClick={()=> sol.play()}>I</div>
+                <div className='char' onClick={()=> la.play()}>G</div>
+                <div className='char' onClick={()=> si.play()}>O&nbsp;</div>
+                <div className='char' onClick={()=> d2.play()}>L</div>
+                <div className='char' onClick={()=> re2.play()}>A</div>
+                <div className='char' onClick={()=> mi2.play()}>G</div>
+                <div className='char' onClick={()=> fa2.play()}>O</div>
               </span>
               <span className="subtitle">Programador full stack</span>
               <span className="skills"></span>
@@ -203,7 +246,7 @@ export const Body2 = () => {
                 estudiante avanzado de ingeniería en informática
                 en la Universidad Nacional Arturo Jauretche.
                 Doy clases de programación y matemáticas.
-                </h4>
+              </h4>
 
               <hr className="star-primary" />
               <br></br>
@@ -218,7 +261,7 @@ export const Body2 = () => {
                 data-toggle="modal"
               >
                 <span
-                
+
                   className="fa fa-fw fa-keyboard-o"
                   aria-hidden="true"
                   title="This symbolizes I Like to design and develop websites
@@ -304,8 +347,8 @@ export const Body2 = () => {
             </div>
           </div>
         </div>
-        <Cards/>
-        </section>
+        <Cards />
+      </section>
       {/* Portfolio Grid Section */}
       <section id="portfolio" >
         <div className="container">
@@ -395,7 +438,7 @@ export const Body2 = () => {
               </article>
             </div>
 
-            <div className="col-sm-4 center-block about-item">       
+            <div className="col-sm-4 center-block about-item">
               <article className="about-item-One">
                 <header>
                   <h3>Metodologias agiles</h3>
@@ -407,7 +450,7 @@ export const Body2 = () => {
               </article>
             </div>
 
-            <div className="col-sm-4 center-block about-item">       
+            <div className="col-sm-4 center-block about-item">
               <article className="about-item-One">
                 <header>
                   <h3>Otros</h3>
@@ -421,7 +464,7 @@ export const Body2 = () => {
           </div>
           <div className='row'>
             <div className='col-sm-4 center-block about-item'></div>
-          <div className="col-sm-4 center-block about-item">       
+            <div className="col-sm-4 center-block about-item">
               <article className="about-item-One">
                 <header>
                   <h3>En proceso de aprendizaje</h3>
@@ -529,11 +572,11 @@ export const Body2 = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
-                <p>Pagina diseñada por{" "}
-                  <a href="https://github.com/RodrigoLago/" target="_blank">
-                    Rodrigo Lago
-                  </a>
-                  , Copyright © 2022</p>
+                  <p>Pagina diseñada por{" "}
+                    <a href="https://github.com/RodrigoLago/" target="_blank">
+                      Rodrigo Lago
+                    </a>
+                    , Copyright © 2022</p>
                 </div>
               </div>
             </div>
