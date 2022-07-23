@@ -206,6 +206,7 @@ export const Body2 = () => {
                 data-toggle="modal"
               >
                 <span
+                
                   className="fa fa-fw fa-keyboard-o"
                   aria-hidden="true"
                   title="This symbolizes I Like to design and develop websites

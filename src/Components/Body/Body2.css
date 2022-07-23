@@ -363,12 +363,18 @@ section.success {
 
 #myLikes .portfolio-link .fa {
     font-size: 10em;
-    padding: 10px 15px;
+    padding: 15px 15px;
     color:#ffffff;
-    opacity: 0.9;
+    opacity: 1;
     border-radius:6px;
     border-radius:5px 20px 5px;
-    background: linear-gradient(45deg, rgba(26, 0, 73, 0.5) 40%, rgba(242, 255, 120, 0.5) 120%);
+    color: var(--firstcolor);
+    text-shadow: 2px 2px 2px #30007c;
+}
+
+#myLikes .portfolio-link :hover {
+    text-shadow: 5px 5px 1px #30007c;
+    transition: 0.2s;
 }
 
 .seeMore-btn .fa, #portfolio .fa, .contact-btn .fa {
