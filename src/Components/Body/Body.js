@@ -141,6 +141,10 @@ export const Body2 = () => {
       src:["https://cdn.freesound.org/previews/517/517467_11368415-lq.mp3"],
       html5:true
     });
+    const chord = new Howl({
+      src:["https://cdn.freesound.org/previews/528/528004_8033171-lq.mp3"],
+      html5:true
+    });
   
   return <div>
     {/* Navigation */}
@@ -196,7 +200,8 @@ export const Body2 = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="intro-text">
-              
+              <span className='name' onClick={()=> chord.play()}>Rodrigo Lago</span>
+              {/*
               <div className='row'>
                 <div className="col-lg-12 text-center">
                   <h1 className="char" onClick={()=> d.play()}>R</h1>
@@ -214,10 +219,23 @@ export const Body2 = () => {
                   <h1 className='space char'>&nbsp;</h1>
                 </div>
               </div>
-               {/* */}
-              <span className="subtitle">Programador full stack</span>
-              <span className="skills"></span>
-              <hr className="star-light" />
+                
+              <span className="subtitle " onClick={()=> re.play()}>Programador full stack</span>*/}
+              <h3 className="char" onClick={()=> d.play()}>P</h3>
+              <h3 className='char' onClick={()=> re.play()}>r</h3>
+              <h3 className='char' onClick={()=> mi.play()}>o</h3>
+              <h3 className='char' onClick={()=> fa.play()}>g</h3>
+              <h3 className='char' onClick={()=> sol.play()}>r</h3>
+              <h3 className='char' onClick={()=> la.play()}>a</h3>
+              <h3 className='char' onClick={()=> si.play()}>m</h3>
+              <h3 className='char' onClick={()=> d2.play()}>a</h3>
+              <h3 className='char' onClick={()=> re2.play()}>d</h3>
+              <h3 className='char' onClick={()=> mi2.play()}>o</h3>
+              <h3 className='char' onClick={()=> fa2.play()}>r <br/></h3>
+              
+              
+              <span className="skills" ></span>
+              <hr className="star-light" onClick={()=> mi.play()}/>
             </div>
 
           </div>

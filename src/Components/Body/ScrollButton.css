@@ -90,6 +90,7 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none;
             display: inline;
+            color: #fff;
   position: relative;
   top: 0;
   transition: top ease-out 0.5s;
@@ -97,12 +98,11 @@
     
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    font-size: 3em;
 }
 
 
 .char:hover {
-  color: #fff000;
+  color: #ae00ff;
   cursor: default;
   top: -15px;
 }
@@ -153,11 +153,13 @@
 
 @media(min-width:768px) {
   .char {
-      font-size: 6em;
+      font-size: 2.7em;
   }
 }
 @media(max-width:767px) {
+  .char {
+    font-size: 2em;
+  }
   
-  
-  
+
 }
