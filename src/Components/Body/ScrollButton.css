@@ -89,7 +89,14 @@
   position: relative;
   top: 0;
   transition: top ease-out 0.5s;
+  padding-top: 20px;
+    
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
 }
+
 
 .char:hover {
   color: #fff000;
@@ -139,4 +146,11 @@
   100% {
     opacity: 1;
   }
+}
+
+@media(min-width:768px) {
+  .char {
+      font-size: 6em;
+  }
+
 }
