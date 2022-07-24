@@ -371,13 +371,13 @@ section.success {
     border-radius:6px;
     border-radius:5px 20px 5px;
     color: var(--firstcolor);
-    text-shadow: 2px 2px 2px #30007c;
+    text-shadow: 2px 2px 2px #ae00ff;
     transition: 0.2s;
 }
 
 #myLikes .portfolio-link :hover {
-    
-    text-shadow: 8px 8px 2px #1f0052;
+    color: #5e5700;
+    text-shadow: 8px 8px 2px #ae00ff;
     transition: 0.2s;
 }
 

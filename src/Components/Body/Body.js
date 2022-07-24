@@ -288,8 +288,7 @@ export const Body2 = () => {
 
                   className="fa fa-fw fa-keyboard-o"
                   aria-hidden="true"
-                  title="This symbolizes I Like to design and develop websites
-                      "
+                  title="Keyboard"
                 />
               </a>
               <article className="portfolio-item-Two">
@@ -314,8 +313,7 @@ export const Body2 = () => {
                 <span
                   className="fa fa-fw fa-headphones"
                   aria-hidden="true"
-                  title="This symbolizes I Love to listen good music
-                      "
+                  title="Musico"
                 />
               </a>
               <article className="portfolio-item-One">
