@@ -256,7 +256,7 @@ export const Body2 = () => {
 
               <hr className="star-primary" />
               <br></br>
-              <h2 id="space-1">Me dedico a</h2><br></br>
+              <h2 id="space-1">Me dedico a...</h2><br></br>
             </div>
           </div>
 

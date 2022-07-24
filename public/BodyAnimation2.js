@@ -19,7 +19,7 @@ $(function() {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
 });
-if(window.innerWidth<350){
+if(window.innerWidth<450){
     let root=document.getElementsByClassName('space')
     root[0].innerHTML+=`<br/><br/>`;
     root[1].innerHTML+=`<br/>`;
