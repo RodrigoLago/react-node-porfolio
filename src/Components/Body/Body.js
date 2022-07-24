@@ -1,6 +1,6 @@
 import React from 'react';
 import { Howl } from 'howler';
-import './Body2.css';
+import './Body.css';
 import './ScrollButton.css';
 import './Card.css';
 
@@ -200,7 +200,8 @@ export const Body2 = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="intro-text">
-              <span className='name' onClick={()=> chord.play()}>Rodrigo Lago</span>
+              <div className='nombre'>
+              <span className='name' onClick={()=> chord.play()}>Rodrigo Lago</span></div>
               {/*
               <div className='row'>
                 <div className="col-lg-12 text-center">
