@@ -78,6 +78,10 @@
   transition: 0.2s;
 }
 
+#myName{
+  padding:50px;
+}
+
 .char {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -85,7 +89,7 @@
        -moz-user-select: none; /* Old versions of Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none;
-  display: inline;
+            display: inline;
   position: relative;
   top: 0;
   transition: top ease-out 0.5s;
@@ -94,7 +98,6 @@
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
-    font-weight: 700;
 }
 
 
@@ -152,5 +155,9 @@
   .char {
       font-size: 6em;
   }
-
+}
+@media(max-width:767px) {
+  #space {
+    font-size: 1px;
+  }
 }

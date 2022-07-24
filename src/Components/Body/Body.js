@@ -196,9 +196,25 @@ export const Body2 = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="intro-text">
-              <span className='name'>Rodrigo Lago</span>
-                
               
+              <div className='row'>
+                <div className="col-lg-12 text-center">
+                  <h1 className="char" onClick={()=> d.play()}>R</h1>
+                  <h1 className='char' onClick={()=> re.play()}>O</h1>
+                  <h1 className='char' onClick={()=> mi.play()}>D</h1>
+                  <h1 className='char' onClick={()=> fa.play()}>R</h1>
+                  <h1 className='char' onClick={()=> sol.play()}>I</h1>
+                  <h1 className='char' onClick={()=> la.play()}>G</h1>
+                  <h1 className='char' onClick={()=> si.play()}>O&nbsp;</h1>
+                  
+                  <h1 className='char' onClick={()=> d2.play()}>L</h1>
+                  <h1 className='char' onClick={()=> re2.play()}>A</h1>
+                  <h1 className='char' onClick={()=> mi2.play()}>G</h1>
+                  <h1 className='char' onClick={()=> fa2.play()}>O<br/></h1>
+                  <h1 id='space'><br/></h1>
+                </div>
+              </div>
+               {/* */}
               <span className="subtitle">Programador full stack</span>
               <span className="skills"></span>
               <hr className="star-light" />
