@@ -206,12 +206,12 @@ export const Body2 = () => {
                   <h1 className='char' onClick={()=> sol.play()}>I</h1>
                   <h1 className='char' onClick={()=> la.play()}>G</h1>
                   <h1 className='char' onClick={()=> si.play()}>O&nbsp;</h1>
-                  
+                  <h1 className='space char'></h1>
                   <h1 className='char' onClick={()=> d2.play()}>L</h1>
                   <h1 className='char' onClick={()=> re2.play()}>A</h1>
                   <h1 className='char' onClick={()=> mi2.play()}>G</h1>
                   <h1 className='char' onClick={()=> fa2.play()}>O<br/></h1>
-                  <h1 id='space'><br/></h1>
+                  <h1 className='space char'>&nbsp;</h1>
                 </div>
               </div>
                {/* */}

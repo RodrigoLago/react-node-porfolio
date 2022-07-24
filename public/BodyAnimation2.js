@@ -19,7 +19,11 @@ $(function() {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
 });
-
+if(window.innerWidth<350){
+    let root=document.getElementsByClassName('space')
+    root[0].innerHTML+=`<br/><br/>`;
+    root[1].innerHTML+=`<br/>`;
+}
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
