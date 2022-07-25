@@ -98,7 +98,7 @@ const Cards = () => {
 }
 
 export const Body2 = () => {
-  let vol=0.9;
+  let vol=0.7;
     const d = new Howl({
       src:['C3.mp3'],
       html5:true,
@@ -204,7 +204,8 @@ export const Body2 = () => {
           <div className="col-lg-12">
             <div className="intro-text">
               <div className='nombre'>
-              <span className='name' onClick={()=> chord.play()}>Rodrigo Lago</span></div>
+                <span className='name' onMouseOver={()=> chord.play()}>Rodrigo Lago</span>
+              </div>
               {/*
               <div className='row'>
                 <div className="col-lg-12 text-center">
@@ -225,17 +226,17 @@ export const Body2 = () => {
               </div>
                 
               <span className="subtitle " onClick={()=> re.play()}>Programador full stack</span>*/}
-              <h3 className="char" onClick={()=> d.play()}>P</h3>
-              <h3 className='char' onClick={()=> re.play()}>r</h3>
-              <h3 className='char' onClick={()=> mi.play()}>o</h3>
-              <h3 className='char' onClick={()=> fa.play()}>g</h3>
-              <h3 className='char' onClick={()=> sol.play()}>r</h3>
-              <h3 className='char' onClick={()=> la.play()}>a</h3>
-              <h3 className='char' onClick={()=> si.play()}>m</h3>
-              <h3 className='char' onClick={()=> d2.play()}>a</h3>
-              <h3 className='char' onClick={()=> re2.play()}>d</h3>
-              <h3 className='char' onClick={()=> mi2.play()}>o</h3>
-              <h3 className='char' onClick={()=> fa2.play()}>r <br/></h3>
+              <h3 className="char" onMouseOver={()=> d.play()}>P</h3>
+              <h3 className='char' onMouseOver={()=> re.play()}>r</h3>
+              <h3 className='char' onMouseOver={()=> mi.play()}>o</h3>
+              <h3 className='char' onMouseOver={()=> fa.play()}>g</h3>
+              <h3 className='char' onMouseOver={()=> sol.play()}>r</h3>
+              <h3 className='char' onMouseOver={()=> la.play()}>a</h3>
+              <h3 className='char' onMouseOver={()=> si.play()}>m</h3>
+              <h3 className='char' onMouseOver={()=> d2.play()}>a</h3>
+              <h3 className='char' onMouseOver={()=> re2.play()}>d</h3>
+              <h3 className='char' onMouseOver={()=> mi2.play()}>o</h3>
+              <h3 className='char' onMouseOver={()=> fa2.play()}>r <br/></h3>
               
               
               <span className="skills" ></span>
@@ -482,7 +483,8 @@ export const Body2 = () => {
                   <h3>Otros</h3>
                 </header>
                 <p><h4>Lenguajes: Python, Smalltalk, Java. <br></br>
-                  Software: Postman, VS Code, VS Community
+                  Git, Postman, Swagger, VS Code, VS Community, HeidiSql, SQL Server Managment Studio,
+                  Heroku, MongoDb Compass, MongoDb Atlas
                 </h4>
                 </p>
               </article>
