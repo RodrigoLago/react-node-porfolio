@@ -118,7 +118,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #ffffff;
-    background: url(https://i.ibb.co/4TynBKV/header.webp) no-repeat;
+    background: url(https://i.ibb.co/vz53QgC/header.jpg) no-repeat;
     background-position: 50% 100%;
 
 }
@@ -181,7 +181,7 @@ header .intro-text .skills {
 
 @media(min-width:1024px) {
     header {
-        background: url(https://i.ibb.co/4TynBKV/header.webp) no-repeat 50% 0%;
+        background: url(https://i.ibb.co/vz53QgC/header.jpg) no-repeat 50% 0%;
         background-position: 50% 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
