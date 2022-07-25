@@ -72,7 +72,7 @@ const Cards = () => {
         <a href='#'>
           <div className="portfolioImage">
             <img
-              src="https://i.ibb.co/Tb78WTP/portfolio.webp"
+              src="https://i.ibb.co/MCgjpkT/portfolio.webp"
               alt="Portfolio"
               srcSet=""
             />

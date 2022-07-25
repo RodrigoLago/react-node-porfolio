@@ -118,7 +118,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #ffffff;
-    background: url(https://i.ibb.co/vz53QgC/header.jpg) no-repeat;
+    background: url(https://i.ibb.co/vz53QgC/header.webp) no-repeat;
     background-position: 50% 100%;
 
 }
@@ -181,7 +181,7 @@ header .intro-text .skills {
 
 @media(min-width:1024px) {
     header {
-        background: url(https://i.ibb.co/vz53QgC/header.jpg) no-repeat 50% 0%;
+        background: url(https://i.ibb.co/vz53QgC/header.webp) no-repeat 50% 0%;
         background-position: 50% 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -321,7 +321,7 @@ section.success {
 }
 
 #likes-cv{
-    background: url(https://i.ibb.co/QF1w5Bf/container1-1.webp) no-repeat 60% 0%;
+    background: url(https://i.ibb.co/YccC0YV/container.webp) no-repeat 60% 0%;
     background-size: cover;
 }
 #myLikes{
@@ -355,7 +355,7 @@ section.success {
     
 }
 #contact-footer{
-    background: url(https://i.ibb.co/kqSmJ5X/fondo.webp) no-repeat 30% 0% ;
+    background: url(https://i.ibb.co/KNvYm4m/fondo1.webp) no-repeat 30% 0% ;
     background-size: cover;
     
 }
