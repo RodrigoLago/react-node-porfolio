@@ -98,7 +98,7 @@ const Cards = () => {
 }
 
 export const Body2 = () => {
-  let vol=0.7;
+    let vol=0.7;
     const d = new Howl({
       src:['C3.mp3'],
       html5:true,
