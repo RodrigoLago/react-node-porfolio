@@ -100,20 +100,20 @@ const Cards = () => {
 export const Body2 = () => {
   let vol=0.9;
     const d = new Howl({
-      src:['/c3.flac'],
+      src:['/c3.mp3'],
       html5:true,
       volume:vol
     });
     const re = new Howl({
-      src:['/d3.flac'],
+      src:['/d3.mp3'],
       volume:vol
     });
     const mi = new Howl({
-      src:'/e3.flac',
+      src:'/e3.mp3',
       volume:vol
     });
     const fa = new Howl({
-      src:'/f3.flac',
+      src:'/f3.mp3',
       volume:vol
     });
     const sol = new Howl({
