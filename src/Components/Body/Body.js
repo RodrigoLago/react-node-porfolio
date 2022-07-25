@@ -98,57 +98,69 @@ const Cards = () => {
 }
 
 export const Body2 = () => {
-    let vol=0.7;
-    const d = new Howl({
-      src:['C3.mp3'],
-      html5:true,
-      volume:vol
-    });
-    const re = new Howl({
-      src:['D3.mp3'],
-      volume:vol
-    });
-    const mi = new Howl({
-      src:['/E3.mp3'],
-      volume:vol
-    });
-    const fa = new Howl({
-      src:['/F3.mp3'],
-      volume:vol
-    });
-    const sol = new Howl({
-      src:['/G3.mp3'],
-      volume:vol
-    })
-    const la = new Howl({
-      src:['/A3.mp3'],
-      volume:vol
-    });
-    const si = new Howl({
-      src:['/B3.mp3'],
-      volume:vol
-    });
-    const d2 = new Howl({
-      src:['/C4.mp3'],
-      volume:vol
-    });
-    const re2 = new Howl({
-      src:['/D4.mp3'],
-      volume:vol
-    });
-    const mi2 = new Howl({
-      src:['/E4.mp3'],
-      volume:vol
-    });
-    const fa2 = new Howl({
-      src:['/F4.mp3'],
-      volume:vol
-    });
-    const chord = new Howl({
-      src:['/C2.mp3'],
-      volume:vol
-    });
+  let vol = 0.7;
   
+  const d = new Howl({
+    src: ['C3.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const re = new Howl({
+    src: ['D3.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const mi = new Howl({
+    src: ['/E3.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const fa = new Howl({
+    src: ['/F3.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const sol = new Howl({
+    src: ['/G3.mp3'],
+    preload: true,
+    volume: vol
+  })
+  const la = new Howl({
+    src: ['/A3.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const si = new Howl({
+    src: ['/B3.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const d2 = new Howl({
+    src: ['/C4.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const re2 = new Howl({
+    src: ['/D4.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const mi2 = new Howl({
+    src: ['/E4.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const fa2 = new Howl({
+    src: ['/F4.mp3'],
+    preload: true,
+    volume: vol
+  });
+  const chord = new Howl({
+    src: ['/C2.mp3'],
+    preload: true,
+    volume: vol
+  });
+
   return <div>
     {/* Navigation */}
     <nav className="navbar navbar-default navbar-color navbar-fixed-top">
@@ -204,43 +216,23 @@ export const Body2 = () => {
           <div className="col-lg-12">
             <div className="intro-text">
               <div className='nombre'>
-                <span className='name' onMouseOver={()=> chord.play()}>Rodrigo Lago</span>
+                <span className='name' onMouseDown={()=>chord.play()}>Rodrigo Lago</span>
               </div>
-              {/*
-              <div className='row'>
-                <div className="col-lg-12 text-center">
-                  <h1 className="char" onClick={()=> d.play()}>R</h1>
-                  <h1 className='char' onClick={()=> re.play()}>O</h1>
-                  <h1 className='char' onClick={()=> mi.play()}>D</h1>
-                  <h1 className='char' onClick={()=> fa.play()}>R</h1>
-                  <h1 className='char' onClick={()=> sol.play()}>I</h1>
-                  <h1 className='char' onClick={()=> la.play()}>G</h1>
-                  <h1 className='char' onClick={()=> si.play()}>O&nbsp;</h1>
-                  <h1 className='space char'></h1>
-                  <h1 className='char' onClick={()=> d2.play()}>L</h1>
-                  <h1 className='char' onClick={()=> re2.play()}>A</h1>
-                  <h1 className='char' onClick={()=> mi2.play()}>G</h1>
-                  <h1 className='char' onClick={()=> fa2.play()}>O<br/></h1>
-                  <h1 className='space char'>&nbsp;</h1>
-                </div>
-              </div>
-                
-              <span className="subtitle " onClick={()=> re.play()}>Programador full stack</span>*/}
-              <h3 className="char" onMouseOver={()=> d.play()}>P</h3>
-              <h3 className='char' onMouseOver={()=> re.play()}>r</h3>
-              <h3 className='char' onMouseOver={()=> mi.play()}>o</h3>
-              <h3 className='char' onMouseOver={()=> fa.play()}>g</h3>
-              <h3 className='char' onMouseOver={()=> sol.play()}>r</h3>
-              <h3 className='char' onMouseOver={()=> la.play()}>a</h3>
-              <h3 className='char' onMouseOver={()=> si.play()}>m</h3>
-              <h3 className='char' onMouseOver={()=> d2.play()}>a</h3>
-              <h3 className='char' onMouseOver={()=> re2.play()}>d</h3>
-              <h3 className='char' onMouseOver={()=> mi2.play()}>o</h3>
-              <h3 className='char' onMouseOver={()=> fa2.play()}>r <br/></h3>
-              
-              
+              <h3 className="char" onMouseDown={() => d.play()}>P</h3>
+              <h3 className='char' onMouseDown={() => re.play()}>r</h3>
+              <h3 className='char' onMouseDown={() => mi.play()}>o</h3>
+              <h3 className='char' onMouseDown={() => fa.play()}>g</h3>
+              <h3 className='char' onMouseDown={() => sol.play()}>r</h3>
+              <h3 className='char' onMouseDown={() => la.play()}>a</h3>
+              <h3 className='char' onMouseDown={() => si.play()}>m</h3>
+              <h3 className='char' onMouseDown={() => d2.play()}>a</h3>
+              <h3 className='char' onMouseDown={() => re2.play()}>d</h3>
+              <h3 className='char' onMouseDown={() => mi2.play()}>o</h3>
+              <h3 className='char' onMouseDown={() => fa2.play()}>r <br /></h3>
+
+
               <span className="skills" ></span>
-              <hr className="star-light" onClick={()=> mi.play()}/>
+              <hr className="star-light" onClick={() => mi.play()} />
             </div>
 
           </div>
