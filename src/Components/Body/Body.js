@@ -100,52 +100,52 @@ const Cards = () => {
 export const Body2 = () => {
   let vol=0.9;
     const d = new Howl({
-      src:['c3.mp3'],
+      src:['C3.mp3'],
       html5:true,
       volume:vol
     });
     const re = new Howl({
-      src:['d3.mp3'],
+      src:['D3.mp3'],
       volume:vol
     });
     const mi = new Howl({
-      src:'/e3.mp3',
+      src:['/E3.mp3'],
       volume:vol
     });
     const fa = new Howl({
-      src:'/f3.mp3',
+      src:['/F3.mp3'],
       volume:vol
     });
     const sol = new Howl({
-      src:'/g3.flac',
+      src:['/G3.mp3'],
       volume:vol
     })
     const la = new Howl({
-      src:'/a3.flac',
+      src:['/A3.mp3'],
       volume:vol
     });
     const si = new Howl({
-      src:'/b3.flac',
+      src:['/B3.mp3'],
       volume:vol
     });
     const d2 = new Howl({
-      src:'/c4.flac',
+      src:['/C4.mp3'],
       volume:vol
     });
     const re2 = new Howl({
-      src:'/d4.flac',
+      src:['/D4.mp3'],
       volume:vol
     });
     const mi2 = new Howl({
-      src:'/e4.flac',
+      src:['/E4.mp3'],
       volume:vol
     });
     const fa2 = new Howl({
-      src:'/f4.flac',
+      src:['/F4.mp3'],
       volume:vol
     });
     const chord = new Howl({
-      src:'/c2.flac',
+      src:['/C2.mp3'],
       volume:vol
     });
   
