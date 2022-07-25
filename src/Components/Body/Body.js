@@ -100,12 +100,12 @@ const Cards = () => {
 export const Body2 = () => {
   let vol=0.9;
     const d = new Howl({
-      src:['/c3.mp3'],
+      src:['c3.mp3'],
       html5:true,
       volume:vol
     });
     const re = new Howl({
-      src:['/d3.mp3'],
+      src:['d3.mp3'],
       volume:vol
     });
     const mi = new Howl({
