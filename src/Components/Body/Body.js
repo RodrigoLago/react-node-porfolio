@@ -97,7 +97,7 @@ const Cards = () => {
   </div>
 }
 
-export const Body2 = () => {
+export const Body = () => {
   let vol = 0.7;
   
   const d = new Howl({

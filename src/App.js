@@ -1,6 +1,5 @@
 import React from 'react';
-import { Navbar } from './Components/Navbar/Navbar.js';
-import { Body, Body2 } from './Components/Body/Body.js';
+import { Body } from './Components/Body/Body.js';
 import useScript from './Components/Hooks/Hooks.js';
 
 
@@ -21,7 +20,7 @@ export function Scripts() {
 function App(){
   return(
     <div id="App">
-      <Body2/>
+      <Body/>
     </div>
   )
 }
