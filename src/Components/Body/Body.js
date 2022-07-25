@@ -4,8 +4,6 @@ import './Body.css';
 import './ScrollButton.css';
 import './Card.css';
 
-
-
 const Cards = () => {
   return <div id="proyectos-section">
     <div className="portfolio-container">
@@ -100,50 +98,54 @@ const Cards = () => {
 }
 
 export const Body2 = () => {
-  
+  let vol=0.9;
     const d = new Howl({
-      src:["https://cdn.freesound.org/previews/316/316898_5385832-lq.mp3"],
-      html5:true
+      src:'/c3.flac',
+      volume:vol
     });
     const re = new Howl({
-      src:["https://cdn.freesound.org/previews/316/316908_5385832-lq.mp3"],
-      html5:true
+      src:'/d3.flac',
+      volume:vol
     });
     const mi = new Howl({
-      src:["https://cdn.freesound.org/previews/316/316906_5385832-lq.mp3"],
-      html5:true
+      src:'/e3.flac',
+      volume:vol
     });
     const fa = new Howl({
-      src:["https://cdn.freesound.org/previews/316/316904_5385832-lq.mp3"],
-      html5:true
+      src:'/f3.flac',
+      volume:vol
     });
     const sol = new Howl({
-      src:["https://cdn.freesound.org/previews/316/316912_5385832-lq.mp3"],
-      html5:true
+      src:'/g3.flac',
+      volume:vol
     })
     const la = new Howl({
-      src:["https://cdn.freesound.org/previews/316/316902_5385832-lq.mp3"],
-      html5:true
+      src:'/a3.flac',
+      volume:vol
     });
     const si = new Howl({
-      src:["https://cdn.freesound.org/previews/579/579224_13063256-lq.mp3"],
-      html5:true
+      src:'/b3.flac',
+      volume:vol
     });
     const d2 = new Howl({
-      src:["https://cdn.freesound.org/previews/469/469646_5876986-lq.mp3"],
-      html5:true
+      src:'/c4.flac',
+      volume:vol
     });
     const re2 = new Howl({
-      src:["https://cdn.freesound.org/previews/517/517463_11368415-lq.mp3"],
-      html5:true
+      src:'/d4.flac',
+      volume:vol
     });
     const mi2 = new Howl({
-      src:["https://cdn.freesound.org/previews/517/517467_11368415-lq.mp3"],
-      html5:true
+      src:'/e4.flac',
+      volume:vol
+    });
+    const fa2 = new Howl({
+      src:'/f4.flac',
+      volume:vol
     });
     const chord = new Howl({
-      src:["https://cdn.freesound.org/previews/528/528004_8033171-lq.mp3"],
-      html5:true
+      src:'/c2.flac',
+      volume:vol
     });
   
   return <div>
