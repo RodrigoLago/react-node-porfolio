@@ -43,7 +43,7 @@ const Cards = () => {
         <a href='https://github.com/Hitchway' target="_blank">
           <div className="portfolioImage">
             <img
-              src="https://i.ibb.co/VHRbHZj/cine.webp"
+              src="https://i.ibb.co/MGwvF6N/cine.webp"
               alt="Hitchway"
               srcSet=""
             />
