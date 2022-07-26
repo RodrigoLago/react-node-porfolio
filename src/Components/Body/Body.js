@@ -3,6 +3,10 @@ import { Howl } from 'howler';
 import './Body.css';
 import './ScrollButton.css';
 import './Card.css';
+import { MuteBtn } from '../Mute Button/MuteBtn';
+
+
+
 
 const Cards = () => {
   return <div id="proyectos-section">
@@ -83,7 +87,7 @@ const Cards = () => {
           <h3 className="portfolioTitle page-scroll"><a href='#page-top'>Portfolio</a></h3>
           <p>
             <h4>El sitio web que usted está viendo en este momento
-              se realizó con React, Node.js, Express.js y Webpack</h4>
+              se realizó con React, Node.js, Express.js, Webpack y Howler.js</h4>
             <br />
 
           </p>
@@ -98,69 +102,58 @@ const Cards = () => {
 }
 
 export const Body = () => {
-  let vol = 0.7;
+  
+  Howler.volume(0.1);
   
   const d = new Howl({
     src: ['C3.mp3'],
     preload: true,
-    volume: vol
   });
   const re = new Howl({
     src: ['D3.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const mi = new Howl({
     src: ['/E3.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const fa = new Howl({
     src: ['/F3.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const sol = new Howl({
     src: ['/G3.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   })
   const la = new Howl({
     src: ['/A3.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const si = new Howl({
     src: ['/B3.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const d2 = new Howl({
     src: ['/C4.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const re2 = new Howl({
     src: ['/D4.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const mi2 = new Howl({
     src: ['/E4.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const fa2 = new Howl({
     src: ['/F4.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
   const chord = new Howl({
     src: ['/C2.mp3'],
-    preload: true,
-    volume: vol
+    preload: true
   });
-
+  
   return <div>
     {/* Navigation */}
     <nav className="navbar navbar-default navbar-color navbar-fixed-top">
@@ -203,6 +196,9 @@ export const Body = () => {
             <li className="page-scroll">
               <a href="#contact">Contacto</a>
             </li>
+            <li id="li-mute">
+              <MuteBtn/>
+            </li>
           </ul>
         </div>
         {/* /.navbar-collapse */}
@@ -229,8 +225,6 @@ export const Body = () => {
               <h3 className='char' onMouseDown={() => re2.play()}>d</h3>
               <h3 className='char' onMouseDown={() => mi2.play()}>o</h3>
               <h3 className='char' onMouseDown={() => fa2.play()}>r <br /></h3>
-
-
               <span className="skills" ></span>
               <hr className="star-light" onClick={() => mi.play()} />
             </div>

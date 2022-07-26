@@ -1,0 +1,21 @@
+:root {
+      --firstcolor: #00ff9d;
+      --amarillo: #fff000;
+      --magenta: #ff00ff;
+      --violeta: #310070;
+      --fullwidth: 100%;
+}
+
+#a-mute{
+      color: var(--firstcolor);
+}
+#a-mute:hover{
+      cursor: pointer;
+}
+.red{
+      color: var(--firstcolor);
+      
+}
+.green{
+      color:red !important;
+}
