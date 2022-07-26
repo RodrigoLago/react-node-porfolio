@@ -103,7 +103,7 @@ const Cards = () => {
 
 export const Body = () => {
   
-  Howler.volume(0.1);
+  Howler.volume(0.8);
   
   const d = new Howl({
     src: ['C3.mp3'],
