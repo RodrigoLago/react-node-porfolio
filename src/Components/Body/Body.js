@@ -15,7 +15,7 @@ const Cards = () => {
         <a href="https://github.com/ProyectoEcommerce" target="_blank">
           <div className="portfolioImage">
             <img
-              src="https://i.ibb.co/jg80kXF/ecommerce.webp"
+              src="/ecommerce.webp"
               alt="Ecommerce"
               srcSet=""
             />
@@ -47,7 +47,7 @@ const Cards = () => {
         <a href='https://github.com/Hitchway' target="_blank">
           <div className="portfolioImage">
             <img
-              src="https://i.ibb.co/MGwvF6N/cine.webp"
+              src="/img/cine.webp"
               alt="Hitchway"
               srcSet=""
             />
@@ -76,7 +76,7 @@ const Cards = () => {
         <a href='#'>
           <div className="portfolioImage">
             <img
-              src="https://i.ibb.co/MCgjpkT/portfolio.webp"
+              src="/img/portfolio.webp"
               alt="Portfolio"
               srcSet=""
             />
@@ -106,51 +106,51 @@ export const Body = () => {
   Howler.volume(0.8);
   
   const d = new Howl({
-    src: ['C3.mp3'],
+    src: ['/sounds/C3.mp3'],
     preload: true,
   });
   const re = new Howl({
-    src: ['D3.mp3'],
+    src: ['/sounds/D3.mp3'],
     preload: true
   });
   const mi = new Howl({
-    src: ['/E3.mp3'],
+    src: ['/sounds/E3.mp3'],
     preload: true
   });
   const fa = new Howl({
-    src: ['/F3.mp3'],
+    src: ['/sounds/F3.mp3'],
     preload: true
   });
   const sol = new Howl({
-    src: ['/G3.mp3'],
+    src: ['/sounds/G3.mp3'],
     preload: true
   })
   const la = new Howl({
-    src: ['/A3.mp3'],
+    src: ['/sounds/A3.mp3'],
     preload: true
   });
   const si = new Howl({
-    src: ['/B3.mp3'],
+    src: ['/sounds/B3.mp3'],
     preload: true
   });
   const d2 = new Howl({
-    src: ['/C4.mp3'],
+    src: ['/sounds/C4.mp3'],
     preload: true
   });
   const re2 = new Howl({
-    src: ['/D4.mp3'],
+    src: ['/sounds/D4.mp3'],
     preload: true
   });
   const mi2 = new Howl({
-    src: ['/E4.mp3'],
+    src: ['/sounds/E4.mp3'],
     preload: true
   });
   const fa2 = new Howl({
-    src: ['/F4.mp3'],
+    src: ['/sounds/F4.mp3'],
     preload: true
   });
   const chord = new Howl({
-    src: ['/C2.mp3'],
+    src: ['/sounds/C2.mp3'],
     preload: true
   });
   
