@@ -20,7 +20,7 @@ const Cards = () => {
         </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Ecommerce website</h5>
-          <h3 className="portfolioTitle">Top Choise Hardware</h3>
+          <h3 className="portfolioTitle"><a href="https://github.com/ProyectoEcommerce" target="_blank">Top Choise Hardware</a></h3>
           <p>
             <h4>
               Ecommerce hecho en .Net con arquitectura de microservicios
@@ -51,10 +51,10 @@ const Cards = () => {
         </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Website</h5>
-          <h3 className="portfolioTitle">Hitchway Cinema</h3>
+          <h3 className="portfolioTitle"><a href='https://github.com/Hitchway' target="_blank">Hitchway Cinema</a></h3>
           <p><h4>
             Website para gestionar ventas de entradas de un cine.
-            El back-end esta realizado con arquitectura monolitica en .Net,
+            El back-end está realizado con arquitectura monolitica en .Net,
             DB SQLServer y front-end con Html, Css y Javascript.</h4>
             <br />
 
@@ -80,9 +80,9 @@ const Cards = () => {
         </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Website</h5>
-          <h3 className="portfolioTitle">Portfolio</h3>
+          <h3 className="portfolioTitle page-scroll"><a href='#page-top'>Portfolio</a></h3>
           <p>
-            <h4>El sitio web que usted esta viendo en este momento
+            <h4>El sitio web que usted está viendo en este momento
               se realizó con React, Node.js, Express.js y Webpack</h4>
             <br />
 
@@ -516,7 +516,7 @@ export const Body = () => {
                   </p>
                 </div>
                 <div className="footer-col col-md-4">
-                  <h3>Mis redes:</h3>
+                  <h3>Mis redes</h3>
                   <ul className="list-inline">
                     <li>
                       <a

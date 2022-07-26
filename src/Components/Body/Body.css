@@ -2,9 +2,10 @@
 
 /****created and maintained  @dasdezine****/
 :root {
-    --firstcolor: #fff000;
+    --firstcolor: #00ff9d;
     --amarillo: #fff000;
     --magenta: #ff00ff;
+    --violeta: #310070;
     --fullwidth: 100%;
 }
 
@@ -42,7 +43,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #fad663;
+    color: var(--amarillo);
 }
 
 h1,
@@ -147,10 +148,11 @@ header img {
 
 .name:hover {
 
-    color: #fff000;
+    color: var(--firstcolor);
 }
 
 .nombre {
+    margin-bottom: 5px;
     position: relative;
     transition: top ease-out 0.5s;
 }
@@ -356,7 +358,7 @@ section.success {
 
     text-align: center;
     line-height: 1.5;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 #myLikes .portfolio-item-Three p,
@@ -410,13 +412,13 @@ section.success {
     border-radius: 6px;
     border-radius: 5px 20px 5px;
     color: var(--firstcolor);
-    text-shadow: 2px 2px 1px #ae00ff;
+    text-shadow: 2px 2px 1px var(--violeta);
     transition: 0.2s;
 }
 
 #myLikes .portfolio-link :hover {
-    color: #5e5700;
-    text-shadow: 8px 8px 1px #ae00ff;
+
+    text-shadow: 8px 8px 1px var(--violeta);
     transition: 0.2s;
 }
 
@@ -470,7 +472,7 @@ div.contact-btn .btn-outline {
 
 div.seeMore-btn .btn-outline:hover,
 div.contact-btn .btn-outline:hover {
-    background: var(--firstcolor);
+    background: var(--violeta);
 }
 
 #proyectos,
@@ -492,8 +494,8 @@ div.contact-btn .btn-outline:hover {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    color: #212121;
-    background: var(--firstcolor);
+    color: #ffffff;
+    background: var(--violeta);
 }
 
 /*******btn double line style starts***********/
@@ -707,6 +709,7 @@ footer .footer-below {
     border-color: #000000 !important;
 }
 
+/* SCROLL BAR COLOR */
 ::-webkit-scrollbar {
     width: 9px;
 }
@@ -717,4 +720,49 @@ footer .footer-below {
 
 ::-webkit-scrollbar-thumb {
     background: rgb(255, 255, 0);
+}
+
+
+/* PIANO */
+
+.char {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    display: inline;
+    color: #fff;
+    position: relative;
+    top: 0;
+    transition: top ease-out 0.5s;
+    padding-top: 10px;
+
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.char:hover {
+    color: var(--amarillo);
+    cursor: default;
+    top: -9px;
+}
+
+@media(min-width:768px) {
+    .char {
+        font-size: 2.7em;
+    }
+}
+
+@media(max-width:767px) {
+    .char {
+        font-size: 2em;
+    }
 }
