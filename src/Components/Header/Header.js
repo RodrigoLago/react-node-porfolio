@@ -71,7 +71,7 @@ export const Header =() =>{
               <h3 className='char' onMouseDown={() => mi2.play()}>o</h3>
               <h3 className='char' onMouseDown={() => fa2.play()}>r <br /></h3>
               <span className="skills" ></span>
-              <hr className="star-light" onClick={() => mi.play()} />
+              <hr className="star-light" />
             </div>
 
           </div>
@@ -91,7 +91,6 @@ export const Header =() =>{
             </div>
           </a>
         </div>
-
       </div>
     </header>
 }
