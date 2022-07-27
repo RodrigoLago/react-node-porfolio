@@ -8,12 +8,12 @@ export const Footer =() =>{
             <div className="row">
               <div className="footer-col col-md-4">
                 <h3>UBICACION</h3>
-                <p>
+                <span>
                   <h4>
                     Quilmes, Buenos Aires
                     <br />
                     Argentina</h4>
-                </p>
+                </span>
               </div>
               <div className="footer-col col-md-4">
                 <h3>Mis redes</h3>
@@ -83,7 +83,7 @@ export const Footer =() =>{
                     </a>
                   </li>
                 </ul>
-                <p><h4>Puedes contactarme mediante mi teléfono personal o mediante mi e-mail.</h4></p>
+                <span><h4>Puedes contactarme mediante mi teléfono personal o mediante mi e-mail.</h4></span>
               </div>
             </div>
           </div>
@@ -92,11 +92,11 @@ export const Footer =() =>{
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <p>Pagina diseñada por{" "}
+                <span>Pagina diseñada por{" "}
                   <a href="https://github.com/RodrigoLago/" target="_blank">
                     Rodrigo Lago
                   </a>
-                  , Copyright © 2022</p>
+                  , Copyright © 2022</span>
               </div>
             </div>
           </div>

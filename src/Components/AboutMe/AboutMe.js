@@ -34,14 +34,14 @@ export const AboutMe = () => {
               <header>
                 <h3>Desarrollo full stack</h3>
               </header>
-              <p>
+              <span>
                 <h4>
                   Soy desarrollador full stack. Puedo realizar desde
                   el diseño hasta la implementación de una aplicación,
                   incluyendo tanto back-end como front-end. Conozco
                   diversas tecnologías para poder implementarlas en
                   un futuro o actual proyecto.</h4>
-              </p>
+              </span>
             </article>
           </div>
           <div className="col-sm-4 portfolio-item">
@@ -59,12 +59,12 @@ export const AboutMe = () => {
               <header>
                 <h3>Musica</h3>
               </header>
-              <p>
+              <span>
                 <h4>
                   Me apasiona la música y también toco varios instrumentos,
                   como la guitarra, saxo y bajo. Mis géneros musicales favoritos
                   son el Jazz, Heavy Metal e Instrumental.</h4>
-              </p>
+              </span>
             </article>
           </div>
 
@@ -83,13 +83,13 @@ export const AboutMe = () => {
               <header>
                 <h3>Videojuegos</h3>
               </header>
-              <p>
+              <span>
                 <h4>
                   En mis ratos libres me gusta jugar
                   videojuegos competitivos como Quake,
                   Counter-Strike, Rocket-League y Ajedrez,
                   entre otros. </h4>
-              </p>
+              </span>
             </article>
           </div>
         </div>
