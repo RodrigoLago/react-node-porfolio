@@ -7,7 +7,7 @@ export const Cards = () => {
             <a href="https://github.com/ProyectoEcommerce" target="_blank">
               <div className="portfolioImage">
                 <img
-                  src="/ecommerce.webp"
+                  src="/img/ecommerce.webp"
                   alt="Ecommerce"
                   srcSet=""
                 />
