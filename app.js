@@ -1,14 +1,19 @@
 'use strict'
+const compression = require('compression');
 const express = require('express');
 const path = require('path');
 const port = process.env.PORT || 4000
+const app = express();
+
+// Comprimir todas las respuestas HTTP
+app.use(compression());
 
 //webpack
 const webpack = require('webpack');
 const webpackDev = require('webpack-dev-middleware');
 const config = require('./webpack.config');
 
-const app = express();
+
 
 //middlewares
 app.use(webpackDev(webpack(config)));
