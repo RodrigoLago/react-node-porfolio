@@ -9,7 +9,6 @@ export const Navbar = () => {
   function CloseNavbar(){
     let nav=document.getElementById('bs-example-navbar-collapse-1')
     nav.classList="navbar-collapse collapse"
-    console.log('hola')
   }
       return <nav className="navbar navbar-default navbar-color navbar-fixed-top">
         <div className="container">

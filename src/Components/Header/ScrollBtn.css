@@ -74,7 +74,7 @@
 
 #mouse-scroll .mouse-in {
   -webkit-animation: animated-mouse 1.2s ease infinite;
-  moz-animation: mouse-animated 1.2s ease infinite;
+  -moz-animation: mouse-animated 1.2s ease infinite;
 }
 
 #mouse-scroll .mouse:hover {
