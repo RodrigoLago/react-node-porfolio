@@ -9,8 +9,8 @@ $(function() {
     });
 });
 $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-    let nav=document.getElementById('bs-example-navbar-collapse-1')
+    //$('.navbar-collapse').collapse('hide');
+    let nav=document.getElementsByClassName('navbar-collapse')[0]
     nav.classList="navbar-collapse collapse"
 });
 // Floating label headings for the contact form
@@ -23,11 +23,7 @@ $(function() {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
 });
-if(window.innerWidth<450){
-    let root=document.getElementsByClassName('space')
-    root[0].innerHTML+=`<br/><br/>`;
-    root[1].innerHTML+=`<br/>`;
-}
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
