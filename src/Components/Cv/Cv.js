@@ -11,7 +11,7 @@ export const Cv=()=>{
       </div>
       <div className="text-center btn-style">
         <div className="btn-styleLine">
-          <a href="#" className="btn btn-lg btn-outline">
+          <a href="https://www.linkedin.com/in/rilago/" target="_blank" className="btn btn-lg btn-outline">
             <h5><i className="fa fa-fw fa-download" /> Descargar cv</h5>
           </a>
         </div>

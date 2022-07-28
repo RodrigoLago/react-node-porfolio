@@ -92,7 +92,7 @@ export const Footer =() =>{
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <span>Pagina diseñada por{" "}
+                <span>Pagina diseñada  y realizada por{" "}
                   <a href="https://github.com/RodrigoLago/" target="_blank">
                     Rodrigo Lago
                   </a>
