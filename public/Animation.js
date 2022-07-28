@@ -8,11 +8,7 @@ $(function() {
         event.preventDefault();
     });
 });
-$(document).ready(function () {
-    $(".li-scroll").click(function(event) {
-      $(".navbar-collapse").collapse('hide');
-    });
-  });
+
 // Floating label headings for the contact form
 $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {
@@ -30,6 +26,8 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+$(document).ready(function () {
+    $(".li-scroll").click(function(event) {
+      $(".navbar-collapse").collapse('hide');
+    });
+  });
