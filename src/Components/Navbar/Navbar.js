@@ -6,6 +6,11 @@ const estilo={
 }
 
 export const Navbar = () => {
+  function CloseNavbar(){
+    let nav=document.getElementById('bs-example-navbar-collapse-1')
+    nav.classList="navbar-collapse collapse"
+    console.log('hola')
+  }
       return <nav className="navbar navbar-default navbar-color navbar-fixed-top">
         <div className="container">
           {/* Brand and toggle get grouped for better mobile display */}
@@ -28,23 +33,23 @@ export const Navbar = () => {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-left">
-              <li className="page-scroll li-scroll">
-                <a href="#top-header">Home</a>
+              <li className="page-scroll li-scroll" >
+                <a href="#top-header" onClick={()=>CloseNavbar()}>Home</a>
               </li>
               <li className="page-scroll li-scroll">
-                <a href="#myLikes">Quien soy</a>
+                <a href="#myLikes" onClick={()=>CloseNavbar()}>Quien soy</a>
               </li>
               <li className="page-scroll li-scroll">
-                <a href="#proyectos">Proyectos</a>
+                <a href="#proyectos" onClick={()=>CloseNavbar()}>Proyectos</a>
               </li>
               <li className="page-scroll li-scroll">
-                <a href="#portfolio">CV</a>
+                <a href="#portfolio" onClick={()=>CloseNavbar()}>CV</a>
               </li>
               <li className="page-scroll li-scroll">
-                <a href="#about">Sobre mi</a>
+                <a href="#about" onClick={()=>CloseNavbar()}>Sobre mi</a>
               </li>
               <li className="page-scroll li-scroll">
-                <a href="#contact">Contacto</a>
+                <a href="#contact" onClick={()=>CloseNavbar()}>Contacto</a>
               </li>
               <li id="li-mute">
                 <MuteBtn/>

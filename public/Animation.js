@@ -26,6 +26,7 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
+/*
 $(document).ready(function () {
     let nav=document.getElementById('bs-example-navbar-collapse-1')
     $(".li-scroll").click(function(event) {
@@ -33,4 +34,4 @@ $(document).ready(function () {
         nav.classList.remove('collapsing');
         nav.classList.add('collapse');
     });
-  });
+  });*/
