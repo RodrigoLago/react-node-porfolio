@@ -27,7 +27,10 @@ $('body').scrollspy({
 
 // Closes the Responsive Menu on Menu Item Click
 $(document).ready(function () {
+    let nav=document.getElementById('bs-example-navbar-collapse-1')
     $(".li-scroll").click(function(event) {
-      $(".navbar-collapse").collapse('hide');
+        $(".navbar-collapse").collapse('hide');
+        nav.classList.remove('collapsing');
+        nav.classList.add('collapse');
     });
   });
