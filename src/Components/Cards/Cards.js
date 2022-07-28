@@ -23,7 +23,7 @@ export const Cards = () => {
                   y base de datos SQL Server. Front-end hecho con Html, Css y
                   Javascript. Se trabajó con un equipo de desarrollo utilizando
                   Scrum.</h4>
-                <br />
+                
               </span>
               <div className="row fila-tags">
                 <h5 className="col-lg-4 tags">.Net</h5>
@@ -52,7 +52,7 @@ export const Cards = () => {
                 Website para gestionar ventas de entradas de un cine.
                 El back-end está realizado con arquitectura monolitica en .Net,
                 DB SQLServer y front-end con Html, Css y Javascript.</h4>
-                <br />
+                
     
               </span>
               <div className="row fila-tags">
@@ -80,7 +80,7 @@ export const Cards = () => {
               <span>
                 <h4>El sitio web que usted está viendo en este momento
                   se realizó con React, Node.js, Express.js, Webpack y Howler.js</h4>
-                <br />
+                
     
               </span>
               <div className="row fila-tags">
