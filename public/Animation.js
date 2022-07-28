@@ -11,8 +11,7 @@ $(function() {
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
     let nav=document.getElementById('bs-example-navbar-collapse-1')
-    nav.classList.remove('collapsing')
-    nav.classList.add('collapse')
+    nav.classList="navbar-collapse collapse"
 });
 // Floating label headings for the contact form
 $(function() {
