@@ -28,22 +28,22 @@ export const Navbar = () => {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-left">
-              <li className="page-scroll">
+              <li className="page-scroll li-scroll">
                 <a href="#top-header">Home</a>
               </li>
-              <li className="page-scroll">
+              <li className="page-scroll li-scroll">
                 <a href="#myLikes">Quien soy</a>
               </li>
-              <li className="page-scroll">
+              <li className="page-scroll li-scroll">
                 <a href="#proyectos">Proyectos</a>
               </li>
-              <li className="page-scroll">
+              <li className="page-scroll li-scroll">
                 <a href="#portfolio">CV</a>
               </li>
-              <li className="page-scroll">
+              <li className="page-scroll li-scroll">
                 <a href="#about">Sobre mi</a>
               </li>
-              <li className="page-scroll">
+              <li className="page-scroll li-scroll">
                 <a href="#contact">Contacto</a>
               </li>
               <li id="li-mute">

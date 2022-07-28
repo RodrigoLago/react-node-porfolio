@@ -8,11 +8,11 @@ $(function() {
         event.preventDefault();
     });
 });
-$('.navbar-nav>li>a').on('click', function(){
-    //$('.navbar-collapse').collapse('hide');
-    let nav=document.getElementsByClassName('navbar-collapse')[0]
-    nav.classList="navbar-collapse collapse"
-});
+$(document).ready(function () {
+    $(".li-scroll").click(function(event) {
+      $(".navbar-collapse").collapse('hide');
+    });
+  });
 // Floating label headings for the contact form
 $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {
