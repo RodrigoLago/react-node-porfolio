@@ -221,87 +221,6 @@ header .intro-text .skills {
     }
 }
 
-
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 4em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
-.navbar {
-    width: 100%;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-
-.navbar-color {
-    background-color: #212121;
-}
-
-.navbar a:focus {
-    outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: rgba(0, 0, 0, 0);
-}
-
-.navbar-default .navbar-toggle:hover {
-    background-color: var(--firstcolor);
-    color: #000000;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #fff;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-    color: var(--firstcolor);
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #212121;
-    background-color: var(--firstcolor);
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
-}
-
 section {
     padding: 50px 0;
 }
@@ -320,7 +239,6 @@ section.success {
     section {
         padding: 25px 0;
     }
-
     section.first {
         padding-top: 75px;
     }
@@ -700,8 +618,8 @@ footer .footer-below {
 .btn-primary:focus {
     color: var(--firstcolor) !important;
     background-color: #000000 !important;
-    border-width: 3px !important;
-    border-color: #000000 !important;
+    border-width: 3px ;
+    border-color: #000000 ;
 }
 
 /* SCROLL BAR COLOR */
@@ -738,11 +656,9 @@ footer .footer-below {
     top: 0;
     transition: top ease-out 0.5s;
     padding-top: 10px;
-
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
-
 
 .char:hover {
     color: var(--amarillo);
@@ -757,7 +673,6 @@ footer .footer-below {
 }
 
 @media(max-width:767px) {
-   
     .char {
         font-size: 2em;
     }
