@@ -52,7 +52,7 @@ export const Header =() =>{
     preload: true
   });
       return <header id="top-header">
-      <div id="page-top" className="container">
+      <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="intro-text">

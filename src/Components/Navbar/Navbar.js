@@ -29,7 +29,7 @@ export const Navbar = () => {
           >
             <ul className="nav navbar-nav navbar-left">
               <li className="page-scroll">
-                <a href="#page-top">Home</a>
+                <a href="#top-header">Home</a>
               </li>
               <li className="page-scroll">
                 <a href="#myLikes">Quien soy</a>
