@@ -6,17 +6,7 @@ const port = process.env.PORT || 4000
 const app = express();
 
 // Comprimir todas las respuestas HTTP
-app.use(compression({
-      level:6,
-      threshold:100*1000,
-      filter:(req,res)=>{
-            if(req.header['x-no-compression']){
-                  return false
-            }
-            return compression.filter(req,res)
-      }
-}
-));
+app.use(compression());
 
 //webpack
 const webpack = require('webpack');
