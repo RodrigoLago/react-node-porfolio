@@ -54,7 +54,7 @@
 }
 
 .navbar-default .navbar-toggle:hover {
-      background-color: var(--firstcolor);
+      background-color: var(--firstcolor) !important;
       color: #000000;
 }
 
