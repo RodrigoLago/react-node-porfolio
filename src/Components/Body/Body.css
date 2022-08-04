@@ -128,7 +128,7 @@ header {
     text-align: center;
     color: #ffffff;
     /*background: url(https://i.ibb.co/vz53QgC/header.webp) no-repeat;*/
-    background: url('../../../public/img/header.jpg') no-repeat ;
+    background: url('../../../public/img/header.webp') no-repeat ;
     background-image: src('./img/header.jpg');
     background-position: 50% 100%;
 
@@ -195,7 +195,7 @@ header .intro-text .skills {
 
 @media(min-width:1024px) {
     header {
-        background: url('../../../public/img/header.jpg')  no-repeat 50% 0%;
+        background: url('../../../public/img/header.webp')  no-repeat 50% 0%;
         background-position: 50% 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -254,7 +254,7 @@ section.success {
 }
 
 #likes-cv {
-    background: url(https://i.ibb.co/YccC0YV/container.webp) no-repeat 60% 0%;
+    background: url('../../../public/img/container.webp')  no-repeat 60% 0%;
     background-size: cover;
 }
 
@@ -300,7 +300,7 @@ section.success {
 }
 
 #contact-footer {
-    background: url(https://i.ibb.co/KNvYm4m/fondo1.webp) no-repeat 30% 0%;
+    background: url('../../../public/img/footer.webp') no-repeat 30% 0%;
     background-size: cover;
 
 }
