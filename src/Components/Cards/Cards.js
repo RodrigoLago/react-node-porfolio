@@ -72,7 +72,7 @@ export const Cards = () => {
 
     <div className="portfolio-container">
       <div className="portfolio-card">
-        <a href='#'>
+        <a href='https://github.com/RodrigoLago/react-node-porfolio' target="_blank">
           <div className="portfolioImage">
             <img
               src="/img/portfolio.webp"
@@ -83,7 +83,7 @@ export const Cards = () => {
         </a>
         <div className="portfolioContent">
           <h5 className="cardCategory">Website</h5>
-          <h3 className="portfolioTitle page-scroll"><a href='#page-top'>Portfolio</a></h3>
+          <h3 className="portfolioTitle page-scroll"><a href='https://github.com/RodrigoLago/react-node-porfolio' target="_blank">Portfolio</a></h3>
           <span>
             <h4>El sitio web que usted está viendo en este momento
               se realizó con React, Node.js, Express.js, Webpack y Howler.js</h4>

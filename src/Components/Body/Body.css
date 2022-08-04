@@ -127,7 +127,6 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #ffffff;
-    /*background: url(https://i.ibb.co/vz53QgC/header.webp) no-repeat;*/
     background: url('../../../public/img/header.webp') no-repeat ;
     background-image: src('./img/header.jpg');
     background-position: 50% 100%;
@@ -296,13 +295,11 @@ section.success {
 .proyectos {
     padding-top: 60px;
     padding-bottom: 0px;
-
 }
 
 #contact-footer {
     background: url('../../../public/img/footer.webp') no-repeat 30% 0%;
     background-size: cover;
-
 }
 
 #portfolio .portfolio-item {
@@ -348,7 +345,6 @@ section.success {
 }
 
 #portfolio {
-
     padding-bottom: 50px;
 }
 
@@ -414,7 +410,6 @@ div.contact-btn .btn-outline:hover {
 }
 
 /*******btn double line style starts***********/
-
 @media(min-width:767px) {
 
     div.btn-style {
@@ -461,7 +456,6 @@ div.contact-btn .btn-outline:hover {
         left: 32%;
         width: 35%;
     }
-
     #portfolio .double-line:after {
         left: 35%;
         width: 30%;
@@ -477,8 +471,6 @@ div.contact-btn .btn-outline:hover {
 }
 
 /*******btn double line style ends***********/
-
-
 #contact hr.star-primary:after {
     background-color: #d2eae3;
 }
@@ -639,7 +631,6 @@ footer .footer-below {
 
 
 /* PIANO */
-
 .char {
     -webkit-touch-callout: none;
     /* iOS Safari */
