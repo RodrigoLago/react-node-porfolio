@@ -349,8 +349,8 @@ section.success {
 }
 
 hr.loc-hr {
-    border-top: 3px dashed #ffffff;
-    margin: 0% 15% !important;
+    border-top: 3px solid #ffffff;
+    margin: 0% 0% !important;
 }
 
 @media(min-width:767px) {
