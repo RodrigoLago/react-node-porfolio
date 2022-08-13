@@ -1,15 +1,11 @@
 .App{
     background-color: #212121;
     min-height: 100vh;
-    
-    
-    
 }
 .loader{
     line-height: 100vh;
-    padding-top: 50vh;
+    padding-top: 45vh;
     display: flex;
-align-items: center;
-justify-content: center;
-    
+    align-items: center;
+    justify-content: center;
 }

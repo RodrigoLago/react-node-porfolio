@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Body } from './Components/Body/Body.js';
-import { MoonLoader } from 'react-spinners';
+import { ScaleLoader } from 'react-spinners';
 import "./App.css"
 function App() {
   const [loading, setLoading] = useState(false);
@@ -8,7 +8,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 1000)
+    }, 1625)
   }, [])
 
   return (
@@ -16,10 +16,12 @@ function App() {
       {
         loading ?
           <div className="loader" >
-            <MoonLoader
-              size={60}
-              color={"#00ff9d"}
-              loading={loading} />
+
+            <ScaleLoader
+              height='90'
+              width='10'
+              color='#00ff9d'
+            />
           </div>
           :
           <Body />
