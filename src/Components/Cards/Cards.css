@@ -13,6 +13,10 @@ img {
   max-height: 100%;
 }
 
+.dev-state {
+  color: #00ff9d;
+}
+
 .portfolio-container {
 
   display: flex;

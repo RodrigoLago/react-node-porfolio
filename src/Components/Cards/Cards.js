@@ -112,12 +112,42 @@ export const Cards = () => {
           <span>
             <h4>Mobile App desarrollada en React Native. El procesamiento se desarrolla
               en la nube ACRCloud, nube dedicada al procesamiento y reconocimiento de sonidos.
+              <br /><h5 class="dev-state">Actualmente en desarrollo</h5>
             </h4>
 
           </span>
           <div className="row fila-tags">
-            <h5 className="col-lg-4 tags">React Native</h5>
-            <h5 className="col-lg-4 tags">ACRCloud</h5>
+            <h5 className="col-lg-6 tags">React Native</h5>
+            <h5 className="col-lg-6 tags">ACRCloud</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/*MAGIC PREDICTION*/}
+    <div className="portfolio-container">
+      <div className="portfolio-card">
+        <a href='https://github.com/orgs/MagicPrediction/repositories' target="_blank">
+          <div className="magic-prediction">
+            <img
+              src="/img/android.gif"
+              alt="magic-prediction"
+              srcSet=""
+            />
+          </div>
+        </a>
+        <div className="portfolioContent">
+          <h5 className="cardCategory">.Net 6 + HTML/CSS/JS + Blender</h5>
+          <h3 className="portfolioTitle"><a href='https://github.com/orgs/MagicPrediction/repositories' target="_blank">Magic Prediction</a></h3>
+          <span>
+            <h4>Aplicación web desarrollada para venta y gestión de trucos de magia. Se utilizaron dos microservicios realizados
+              con .Net 6, Entity Framework y para el front end se utilizó React y Blender.<br /><h5 class="dev-state">Actualmente en desarrollo</h5>
+            </h4>
+
+
+          </span>
+          <div className="row fila-tags">
+            <h5 className="col-lg-6 tags">React Native</h5>
+            <h5 className="col-lg-6 tags">ACRCloud</h5>
           </div>
         </div>
       </div>
