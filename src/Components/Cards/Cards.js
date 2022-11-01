@@ -146,8 +146,8 @@ export const Cards = () => {
 
           </span>
           <div className="row fila-tags">
-            <h5 className="col-lg-6 tags">React Native</h5>
-            <h5 className="col-lg-6 tags">ACRCloud</h5>
+            <h5 className="col-lg-6 tags">.Net 6</h5>
+            <h5 className="col-lg-6 tags">Blender</h5>
           </div>
         </div>
       </div>
