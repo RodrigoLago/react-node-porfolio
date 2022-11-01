@@ -140,9 +140,8 @@ export const Cards = () => {
           <h3 className="portfolioTitle"><a href='https://github.com/orgs/MagicPrediction/repositories' target="_blank">Magic Prediction</a></h3>
           <span>
             <h4>Aplicación web desarrollada para venta y gestión de trucos de magia. Se utilizaron dos microservicios realizados
-              con .Net 6, Entity Framework y para el front end se utilizó React y Blender.<br /><h5 class="dev-state">Actualmente en desarrollo</h5>
+              con .Net 6 y para el front end se utilizó React y Blender.<br /><h5 class="dev-state">Actualmente en desarrollo</h5>
             </h4>
-
 
           </span>
           <div className="row fila-tags">
