@@ -94,6 +94,34 @@ export const Cards = () => {
         </div>
       </div>
     </div>
+    {/*MUSIC RECOGNITION*/}
+    <div className="portfolio-container">
+      <div className="portfolio-card">
+        <a href='https://github.com/RodrigoLago/music-recognizer' target="_blank">
+          <div className="portfolioImage">
+            <img
+              src="/img/musical.webp"
+              alt="music-recognizer"
+              srcSet=""
+            />
+          </div>
+        </a>
+        <div className="portfolioContent">
+          <h5 className="cardCategory">React Native + ACRCloud</h5>
+          <h3 className="portfolioTitle"><a href='https://github.com/RodrigoLago/music-recognizer' target="_blank">Reconocimiento Musical</a></h3>
+          <span>
+            <h4>Mobile App desarrollada en React Native. El procesamiento se desarrolla
+              en la nube ACRCloud, nube dedicada al procesamiento y reconocimiento de sonidos.
+            </h4>
+
+          </span>
+          <div className="row fila-tags">
+            <h5 className="col-lg-4 tags">React Native</h5>
+            <h5 className="col-lg-4 tags">ACRCloud</h5>
+          </div>
+        </div>
+      </div>
+    </div>
     {/*PORTFOLIO*/}
     <div className="portfolio-container">
       <div className="portfolio-card">
