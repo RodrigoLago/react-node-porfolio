@@ -16,7 +16,7 @@ export const Skills = () => {
             </header>
             <span>
               <h4>C#, POO, Api Rest, ORM Entity Framework, arquitectura de microservicios y monolítica, patrones de diseño,
-                patrón repositorio,  estructuras de datos, Windows Forms</h4>
+                inyección de dependencias,  estructuras de datos, Windows Forms</h4>
             </span>
           </article>
         </div>
@@ -76,9 +76,9 @@ export const Skills = () => {
             <header>
               <h3>Otros</h3>
             </header>
-            <span><h4>Lenguajes: Python, Smalltalk, Java. <br></br>
-              Docker, Azure, Git, Postman, Swagger, VS Code, VS Community, HeidiSql, SQL Server Managment Studio,
-              Heroku, MongoDb Compass, MongoDb Atlas
+            <span><h4>Docker, Azure, Git, Postman, Swagger, VS Code, VS Community,
+              HeidiSql, SQL Server Managment Studio,Heroku, MongoDb Compass,
+              MongoDb Atlas<br />Lenguajes: Python, Smalltalk, Java.
             </h4>
             </span>
           </article>
