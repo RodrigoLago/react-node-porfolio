@@ -136,7 +136,7 @@ export const Cards = () => {
           </div>
         </a>
         <div className="portfolioContent">
-          <h5 className="cardCategory">.Net 6 + HTML/CSS/JS + Blender</h5>
+          <h5 className="cardCategory">.Net 6 + REACT + Blender</h5>
           <h3 className="portfolioTitle"><a href='https://github.com/orgs/MagicPrediction/repositories' target="_blank">Magic Prediction</a></h3>
           <span>
             <h4>Aplicación web desarrollada para venta y gestión de trucos de magia. Se utilizaron dos microservicios realizados
