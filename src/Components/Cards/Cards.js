@@ -112,9 +112,9 @@ export const Cards = () => {
           <span>
             <h4>Mobile App desarrollada en React Native. El procesamiento se desarrolla
               en la nube ACRCloud, nube dedicada al procesamiento y reconocimiento de sonidos.
-              <br /><h5 class="dev-state">Actualmente en desarrollo</h5>
+              <br />
             </h4>
-
+            <h5 className="dev-state">Actualmente en desarrollo</h5>
           </span>
           <div className="row fila-tags">
             <h5 className="col-lg-6 tags">React Native</h5>
@@ -140,8 +140,9 @@ export const Cards = () => {
           <h3 className="portfolioTitle"><a href='https://github.com/orgs/MagicPrediction/repositories' target="_blank">Magic Prediction</a></h3>
           <span>
             <h4>Aplicación web desarrollada para venta y gestión de trucos de magia. Se utilizaron dos microservicios realizados
-              con .Net 6 y para el front end se utilizó React y Blender.<br /><h5 class="dev-state">Actualmente en desarrollo</h5>
+              con .Net 6 y para el front end se utilizó React y Blender.<br />
             </h4>
+            <h5 className="dev-state">Actualmente en desarrollo</h5>
 
           </span>
           <div className="row fila-tags">

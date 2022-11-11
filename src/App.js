@@ -16,7 +16,6 @@ function App() {
       {
         loading ?
           <div className="loader" >
-
             <ScaleLoader
               height='90'
               width='10'
@@ -26,7 +25,6 @@ function App() {
           :
           <Body />
       }
-
     </div>
   )
 }
